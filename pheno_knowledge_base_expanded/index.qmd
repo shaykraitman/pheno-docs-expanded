@@ -1,0 +1,49 @@
+---
+title: "Human Phenotype Project Knowledge Base"
+page-layout: full
+---
+
+::: {style="text-align: center; margin-bottom: 2rem;"}
+![](hpp_logo.png){style="max-width: 250px; width: 100%;"}
+:::
+
+## About the Human Phenotype Project
+
+The Human Phenotype Project is a landmark effort to empower researchers to make the next breakthroughs in human health. By profiling a diverse participant base of individuals **beyond the genome**, and incorporating a wealth of now-measurable data layers and environmental influences, 'deep phenotyping' gathers the details of human health and disease. 
+
+This novel approach brings together many pieces of the puzzle and builds a high-resolution view of the key drivers behind health and disease. Following in the wake of the Human Genome Project, The Human Phenotype Project will impact the way we approach and treat a wide range of diseases that plague human health.
+
+## Dataset Categories
+
+::: {.feature-cards}
+::: {.feature-card onclick="window.location.href='category_clinical_assessments.html';"}
+### Clinical Assessments
+Physical measurements, vital signs, and device-based health metrics.
+:::
+
+::: {.feature-card onclick="window.location.href='category_medical_imaging.html';"}
+### Medical Imaging
+Advanced imaging technologies for detailed anatomical and physiological insights.
+:::
+
+::: {.feature-card onclick="window.location.href='category_multi_omics.html';"}
+### Multi-Omics
+Genomics, transcriptomics, metabolomics, and microbiome profiling.
+:::
+
+::: {.feature-card onclick="window.location.href='category_sensors_app_logging.html';"}
+### Sensors and App Logging
+Wearable devices, continuous monitoring, and digital health applications.
+:::
+
+::: {.feature-card onclick="window.location.href='category_medical_records_surveys.html';"}
+### Medical Records and Surveys
+EHR-derived data, self-reported questionnaires, and lifestyle factors.
+:::
+
+::: {.feature-card onclick="window.location.href='category_study_core.html';"}
+### Study Core
+Fundamental participant demographics and study event information.
+:::
+:::
+

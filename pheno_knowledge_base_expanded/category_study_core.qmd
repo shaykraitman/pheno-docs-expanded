@@ -1,0 +1,31 @@
+---
+title: "Study Core"
+---
+
+## Description
+
+Study core datasets form the foundational structure of the Human Phenotype Project, containing essential participant demographics and study event information. These datasets provide the framework for linking all other data types and understanding the study's longitudinal structure.
+
+## Introduction
+
+Every research study requires a well-organized data structure that tracks participants, study events, and basic demographic information. The study core datasets serve as the backbone of the Human Phenotype Project, enabling researchers to understand who participated, when they participated, and what assessments were completed. This information is critical for data integration, longitudinal analysis, and understanding the representativeness of the study population.
+
+## Available Datasets
+
+- **[Population](datasets/000-population.html)** - Core participant demographics, enrollment information, and study status
+- **[Events](datasets/001-events.html)** - Study visit schedule, completed assessments, and timeline information
+- **[Curated Phenotypes](datasets/100-curated_phenotypes.html)** - Expert-curated derived phenotypes and clinical outcomes based on integrated data analysis
+
+## Measurement Protocol
+
+Population data is collected during the enrollment process and updated throughout the study as needed. Study event data is automatically generated as participants complete assessments and visits. All data is quality-checked to ensure completeness and accuracy.
+
+## Data Structure
+
+Study core datasets follow standardized formats:
+
+- **Participant ID:** Unique identifier linking all data for each participant
+- **Event ID:** Unique identifier for each study visit or assessment occasion
+- **Timestamps:** Date and time information for all study activities
+
+These identifiers and timestamps enable researchers to merge data across different assessments and create longitudinal datasets.

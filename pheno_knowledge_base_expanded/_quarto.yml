@@ -1,0 +1,104 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "Pheno.AI"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: participant_journey.md
+        text: "Get to Know the HPP"
+      - publications.md
+      
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: participant_journey.md
+        text: "Get to Know the HPP"
+      - section: "Datasets"
+        expanded: true
+        contents:
+          - datasets_description.md
+          - section: "Study Core"
+            href: category_study_core.qmd
+            expanded: true
+            contents:
+              - datasets/000-population.ipynb
+              - datasets/001-events.ipynb
+              - datasets/100-curated_phenotypes.ipynb
+          - section: "Clinical Assessments"
+            href: category_clinical_assessments.qmd
+            expanded: true
+            contents:
+              - datasets/002-anthropometrics.ipynb
+              - datasets/006-hand_grip.ipynb
+              - datasets/007-blood_pressure.ipynb
+              - datasets/010-peripheral_vascular_health.ipynb
+              - datasets/015-ecg.ipynb
+              - datasets/019-cbc.ipynb
+              - datasets/027-voice.ipynb
+              - datasets/032-gait.ipynb
+          - section: "Medical Imaging"
+            href: category_medical_imaging.qmd
+            expanded: true
+            contents:
+              - datasets/003-fundus.ipynb
+              - datasets/004-liver_ultrasound.ipynb
+              - datasets/011-body_composition.ipynb
+              - datasets/012-carotid_ultrasound.ipynb
+              - datasets/022-bone_density.ipynb
+          - section: "Multi-Omics"
+            href: category_multi_omics.qmd
+            expanded: true
+            contents:
+              - datasets/008-serum_lipidomics.ipynb
+              - datasets/013-gut_microbiome.ipynb
+              - datasets/014-human_genetics.ipynb
+              - datasets/024-rna_seq.ipynb
+              - datasets/028-olink_proteomics.ipynb
+              - datasets/029-nightingale_metabolomics.ipynb
+              - datasets/030-vaginal_microbiome.ipynb
+              - datasets/070-oral_microbiome.ipynb
+          - section: "Sensors and App Logging"
+            href: category_sensors_app_logging.qmd
+            expanded: true
+            contents:
+              - datasets/005-diet_logging.ipynb
+              - datasets/009-sleep.ipynb
+              - datasets/017-cgm.ipynb
+              - datasets/033-google_fit_apple_health.ipynb
+          - section: "Medical Records and Surveys"
+            href: category_medical_records_surveys.qmd
+            expanded: true
+            contents:
+              - datasets/016-blood_tests.ipynb
+              - datasets/018-medications.ipynb
+              - datasets/021-medical_conditions.ipynb
+              - datasets/043-covid.ipynb
+              - datasets/044-sex_specific_factors.ipynb
+              - datasets/045-participant_relation.ipynb
+              - datasets/049-medical_symptoms.ipynb
+              - datasets/050-medical_procedures.ipynb
+              - datasets/051-children.ipynb
+              - datasets/052-family_history.ipynb
+              - datasets/053-sociodemographics.ipynb
+              - datasets/055-lifestyle_and_environment.ipynb
+              - datasets/057-psychological_and_social_health.ipynb
+              - datasets/058-health_and_medical_history.ipynb
+format:
+  html:
+    theme:
+      light: spacelab
+      dark: darkly
+    css: styles.css
+    toc: true
+    include-after-body: chatbot-widget-simple.html
+
+execute:
+  freeze: auto
+

@@ -1,0 +1,14 @@
+# Requirements for building Pheno Knowledge Base sites
+# Install with: pip install -r requirements.txt
+
+# Quarto JupyterLab extension (required for rendering Jupyter notebooks in Quarto)
+jupyterlab-quarto>=0.3.5
+
+# Note: Quarto itself needs to be installed separately
+# Download from: https://quarto.org/docs/get-started/
+# Or on Linux: 
+#   wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.557/quarto-1.4.557-linux-amd64.tar.gz
+#   tar -xzf quarto-1.4.557-linux-amd64.tar.gz
+#   sudo mv quarto-1.4.557 /opt/quarto/
+#   sudo ln -sf /opt/quarto/quarto-1.4.557/bin/quarto /usr/local/bin/quarto
+

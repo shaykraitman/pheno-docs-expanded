@@ -1,0 +1,28 @@
+---
+title: "Medical Imaging"
+---
+
+## Description
+
+Medical imaging datasets include state-of-the-art non-invasive imaging modalities that provide detailed visualization of internal body structures and tissues. These imaging techniques enable comprehensive assessment of organ health, tissue composition, vascular structure, and skeletal integrity.
+
+## Introduction
+
+The Human Phenotype Project utilizes advanced medical imaging technologies to capture high-resolution images of various body systems. These imaging modalities provide valuable insights into structural health, disease markers, and physiological changes that may not be apparent through other assessment methods. All imaging is performed by trained technicians using FDA-approved medical devices, following standardized protocols to ensure image quality and participant safety.
+
+## Available Datasets
+
+- **[Fundus Photography](datasets/003-fundus.html)** - High-resolution retinal imaging for vascular and optic nerve assessment
+- **[Liver Ultrasound](datasets/004-liver_ultrasound.html)** - Hepatic imaging for liver structure and fatty liver assessment
+- **[Carotid Ultrasound](datasets/012-carotid_ultrasound.html)** - Carotid artery imaging for atherosclerosis and vascular health
+- **[Body Composition](datasets/011-body_composition.html)** - Bioelectrical impedance analysis for body fat, muscle mass, and water content
+- **[Bone Density](datasets/022-bone_density.html)** - DEXA scanning for bone mineral density and osteoporosis assessment
+
+## Measurement Protocol
+
+Medical imaging is conducted in dedicated imaging rooms at the clinical testing center. Participants are positioned according to standardized protocols specific to each imaging modality. Images are reviewed for quality immediately after acquisition, and repeat imaging may be performed if needed. All images are stored in medical-grade formats (e.g., DICOM) with comprehensive metadata.
+
+## Data Processing
+
+Raw images undergo quality control and automated analysis using validated algorithms. Extracted features include anatomical measurements, tissue characteristics, and disease-relevant markers. Both raw images and derived quantitative features are available for research use.
+

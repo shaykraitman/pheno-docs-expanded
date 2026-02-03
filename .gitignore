@@ -1,0 +1,33 @@
+# Environment variables (contains API key - NEVER COMMIT!)
+.env
+
+# Build outputs
+docs-expanded/
+
+# Quarto files
+.quarto/
+/.quarto/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Generated knowledge base
+pheno_knowledge_base_expanded/knowledge-base-context.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+

@@ -1,0 +1,39 @@
+---
+title: "Medical Records and Surveys"
+---
+
+## Description
+
+Medical records and surveys encompass comprehensive health information obtained from electronic health records (EHR) and detailed questionnaires. This data includes medical history, current conditions, medications, procedures, lifestyle factors, psychological health, and sociodemographic information, providing a complete picture of participants' health status and life circumstances.
+
+## Introduction
+
+The Human Phenotype Project integrates data from multiple sources to create a comprehensive health profile for each participant. Electronic health records provide objective clinical data collected during routine healthcare, while questionnaires capture self-reported information that may not be available in medical records. Together, these data sources enable researchers to understand the complex interplay between medical conditions, treatments, behaviors, and social determinants of health.
+
+## Available Datasets
+
+### Electronic Health Records
+
+- **[Blood Tests](datasets/016-blood_tests.html)** - Laboratory results from clinical blood tests obtained through EHR integration
+- **[Medications](datasets/018-medications.html)** - Current and past medication use
+- **[Medical Conditions](datasets/021-medical_conditions.html)** - Diagnosed diseases and chronic conditions
+- **[Medical Symptoms](datasets/049-medical_symptoms.html)** - Self-reported symptoms and complaints
+- **[Medical Procedures](datasets/050-medical_procedures.html)** - Surgical and medical procedures
+- **[Health and Medical History](datasets/058-health_and_medical_history.html)** - Comprehensive medical history
+- **[Family History](datasets/052-family_history.html)** - Family history of diseases and conditions
+- **[Children](datasets/051-children.html)** - Information about participants' children
+- **[Participant Relations](datasets/045-participant_relation.html)** - Family relationships between study participants
+- **[Sociodemographics](datasets/053-sociodemographics.html)** - Education, occupation, income, and living situation
+- **[Lifestyle and Environment](datasets/055-lifestyle_and_environment.html)** - Physical activity, smoking, alcohol, environmental exposures
+- **[Psychological and Social Health](datasets/057-psychological_and_social_health.html)** - Mental health, stress, social support, and quality of life
+- **[Sex-Specific Factors](datasets/044-sex_specific_factors.html)** - Reproductive history and sex-specific health factors
+- **[COVID-19](datasets/043-covid.html)** - COVID-19 exposure, symptoms, and impact
+
+## Measurement Protocol
+
+Questionnaires are administered during clinical visits and/or through the study's mobile application. Participants complete surveys at baseline and during follow-up visits. Additionally, we collect updated information yearly through phone interviews to capture changes in health status, medications, and life circumstances. EHR data is obtained through secure integration with healthcare systems, with appropriate participant consent and privacy protections.
+
+## Data Processing
+
+Survey responses undergo quality control to identify incomplete or inconsistent data. Free-text responses are coded using standard medical terminologies (e.g., ICD-10 for diagnoses, ATC for medications). Data is harmonized across different sources and time points to create longitudinal profiles.
+

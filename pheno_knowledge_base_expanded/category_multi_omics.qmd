@@ -1,0 +1,38 @@
+---
+title: "Multi-Omics"
+---
+
+## Description
+
+Multi-omics datasets encompass comprehensive molecular profiling of biological samples, including genomics, transcriptomics, metabolomics, lipidomics, and microbiome analysis. These datasets provide deep insights into the molecular underpinnings of health and disease, capturing the full spectrum of biological information from DNA to metabolites.
+
+## Introduction
+
+The Human Phenotype Project employs cutting-edge omics technologies to profile participants at the molecular level. By integrating multiple omics layers, we can understand the complex interplay between genetic variation, gene expression, metabolic pathways, and microbial communities. This comprehensive molecular profiling enables discovery of novel biomarkers, disease mechanisms, and personalized health insights.
+
+## Available Datasets
+
+### Metabolomics and Lipidomics
+
+- **[Serum Lipidomics](datasets/008-serum_lipidomics.html)** - Comprehensive lipid profiling in blood serum
+- **[Olink Proteomics](datasets/028-olink_proteomics.html)** - Proximity extension assay-based protein biomarker profiling
+- **[Nightingale Metabolomics](datasets/029-nightingale_metabolomics.html)** - NMR-based metabolic profiling including lipoproteins, amino acids, and glycolysis markers
+
+### Microbiome Analysis
+
+- **[Gut Microbiome](datasets/013-gut_microbiome.html)** - 16S rRNA and metagenomic sequencing of intestinal microbial communities
+- **[Vaginal Microbiome](datasets/030-vaginal_microbiome.html)** - Microbial profiling of the vaginal microbiome
+- **[Oral Microbiome](datasets/070-oral_microbiome.html)** - Microbial profiling of the oral cavity
+
+### Genomics and Transcriptomics
+
+- **[Human Genetics](datasets/014-human_genetics.html)** - Whole genome sequencing and genotyping for genetic variation analysis
+- **[RNA-Seq](datasets/024-rna_seq.html)** - Whole transcriptome sequencing for gene expression profiling
+
+## Measurement Protocol
+
+Biological samples (blood, saliva, stool) are collected during clinical visits following standardized protocols. Samples are processed, aliquoted, and stored at appropriate temperatures (-80°C for most samples) until analysis. Omics profiling is performed using validated laboratory methods at certified facilities with rigorous quality control.
+
+## Data Processing
+
+Raw omics data undergoes quality control, normalization, and standardization using established bioinformatics pipelines. Processed data includes both raw measurements and derived features (e.g., pathway scores, diversity metrics, genetic risk scores). All data is annotated with relevant metadata and linked to clinical and phenotypic data.

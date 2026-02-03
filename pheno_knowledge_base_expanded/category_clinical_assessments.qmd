@@ -1,0 +1,27 @@
+---
+title: "Clinical Assessments"
+---
+
+## Description
+
+Clinical assessments encompass a range of physical measurements and physiological evaluations conducted at the clinical testing center. These measurements provide comprehensive data on participants' physical health status, cardiovascular function, muscular strength, and other key health indicators.
+
+## Introduction
+
+Clinical assessments in the Human Phenotype Project are performed by trained medical staff using standardized protocols and validated medical devices. These assessments capture fundamental health metrics that serve as critical indicators of overall health status and disease risk. The data collected during clinical assessments provides a foundation for understanding the relationship between physical health parameters and other biological and lifestyle factors.
+
+## Available Datasets
+
+- **[Anthropometrics](datasets/002-anthropometrics.html)** - Body measurements including height, weight, waist circumference, and body composition metrics
+- **[Hand Grip Strength](datasets/006-hand_grip.html)** - Muscular strength assessment using dynamometry
+- **[Blood Pressure](datasets/007-blood_pressure.html)** - Systolic and diastolic blood pressure measurements
+- **[Peripheral Vascular Health](datasets/010-peripheral_vascular_health.html)** - Vascular function and arterial stiffness measurements
+- **[ECG](datasets/015-ecg.html)** - Electrocardiogram recordings for cardiac rhythm and electrical activity analysis
+- **[CBC](datasets/019-cbc.html)** - Complete blood count from non-invasive lip vein imaging device
+- **[Voice](datasets/027-voice.html)** - Voice recordings and acoustic analysis for speech patterns
+- **[Gait and Balance](datasets/032-gait.html)** - Comprehensive gait, balance, and movement assessments using motion capture technology
+
+## Measurement Protocol
+
+All clinical assessments are conducted during participant visits to the clinical testing center. Assessments follow standardized protocols to ensure consistency and reproducibility. Trained staff members perform measurements using calibrated, medical-grade equipment. Data is recorded electronically and quality-checked before being added to the research database.
+

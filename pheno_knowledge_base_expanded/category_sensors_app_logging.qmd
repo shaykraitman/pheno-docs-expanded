@@ -1,0 +1,32 @@
+---
+title: "Sensors and App Logging"
+---
+
+## Description
+
+Sensors and app logging datasets capture continuous, real-world health data through wearable devices, smartphone applications, and specialized sensors. These technologies enable longitudinal monitoring of physical activity, sleep patterns, glucose levels, and dietary intake in participants' natural environments.
+
+## Introduction
+
+The Human Phenotype Project leverages consumer and medical-grade wearable technologies to collect rich, temporally dense data that complements clinical assessments. These devices provide insights into daily behaviors, physiological patterns, and health metrics that would be impossible to capture through periodic clinic visits alone. The continuous nature of sensor data allows for analysis of circadian rhythms, behavioral patterns, and the impact of lifestyle factors on health.
+
+## Available Datasets
+
+- **[Sleep](datasets/009-sleep.html)** - Multi-night sleep staging, respiratory events, heart rate, and oxygen saturation using FDA-approved home sleep monitoring device
+- **[Continuous Glucose Monitoring (CGM)](datasets/017-cgm.html)** - Continuous interstitial glucose measurements over multiple days using wearable CGM devices
+- **[Wearables](datasets/033-google_fit_apple_health.html)** - Physical activity, heart rate, sleep, and health data from Google Fit and Apple HealthKit
+- **[Diet Logging](datasets/005-diet_logging.html)** - Self-reported food intake and nutritional information via mobile app
+
+## Measurement Protocol
+
+Participants receive wearable devices and/or app instructions during their clinical visits. For sleep monitoring and CGM, devices are worn for specified periods (e.g., 3 nights for sleep, 14 days for CGM) and then returned. For health apps, participants grant permission for data synchronization from their personal devices. All data is transmitted securely to the research database.
+
+## Data Processing
+
+Sensor data undergoes multiple levels of processing:
+
+1. **Raw data:** Time-series measurements from device sensors
+2. **Events:** Automated detection of specific events (e.g., sleep stages, glucose excursions)
+3. **Summary statistics:** Daily and overall summaries of key metrics
+
+Quality control procedures identify missing data, device failures, and physiologically implausible values.

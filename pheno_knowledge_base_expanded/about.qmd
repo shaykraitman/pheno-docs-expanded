@@ -1,0 +1,68 @@
+---
+title: "About the Human Phenotype Project"
+page-layout: full
+---
+
+## Our Vision
+
+The Human Phenotype Project is a **landmark effort** to empower researchers to make the next breakthroughs in human health. By profiling a diverse participant base of individuals beyond the genome, and incorporating a wealth of now-measurable data layers and environmental influences, 'deep phenotyping' gathers the details of human health and disease. 
+
+This novel approach brings together many pieces of the puzzle and builds a high-resolution view of the key drivers behind health and disease. Following in the wake of the Human Genome Project, The Human Phenotype Project will impact the way we approach and treat a wide range of diseases that plague human health.
+
+## Our Approach
+
+::: {.feature-cards}
+::: {.feature-card}
+<div class="icon">🔍</div>
+### Deep Phenotyping
+We go beyond traditional health data to capture a comprehensive picture of each participant, including molecular, physiological, behavioral, and environmental factors.
+:::
+
+::: {.feature-card}
+<div class="icon">🌐</div>
+### Diverse Population
+Our participants represent diverse backgrounds, ages, and health statuses from across the globe, ensuring research applicability to all populations.
+:::
+
+::: {.feature-card}
+<div class="icon">📈</div>
+### Longitudinal Tracking
+We follow participants over time, capturing how health evolves and responds to various factors and interventions.
+:::
+:::
+
+## Impact on Science & Industry
+
+::: {.info-box .success}
+#### Driving Innovation
+The Human Phenotype Project's proprietary datasets are already yielding insights that are advancing science and driving innovation across the pharmaceutical, healthcare, and life-sciences industries. 
+
+As pharmaceutical R&D becomes increasingly data-driven, a **top pharmaceutical company** is using the project's data to transform its drug development programs. A prominent **US-based life-sciences company** is also using the data to engineer novel products to treat obesity, type 2 diabetes, and other cardiometabolic diseases.
+:::
+
+## Our Mission
+
+To achieve its mission to deeply phenotype participants from across the globe, The Human Phenotype Project is now partnering with leading international research institutions and is currently **open to additional partners** who wish to join this transformative initiative.
+
+## Research Areas
+
+The comprehensive data from the Human Phenotype Project enables breakthrough research in:
+
+- **Cardiovascular Health**: Understanding heart disease, hypertension, and vascular health
+- **Metabolic Disorders**: Investigating diabetes, obesity, and metabolic syndrome
+- **Aging & Longevity**: Uncovering the biological mechanisms of healthy aging
+- **Microbiome & Health**: Exploring the role of gut, oral, and other microbiomes
+- **Precision Medicine**: Developing personalized treatment approaches
+- **Disease Prevention**: Identifying early biomarkers and risk factors
+- **Drug Development**: Accelerating pharmaceutical discovery and validation
+- **Digital Health**: Advancing wearable and remote monitoring technologies
+
+::: {.info-box}
+#### Get Involved
+Interested in collaborating or accessing HPP data? [Contact us](mailto:research@pheno.ai) to learn about partnership opportunities and data access programs.
+:::
+
+---
+
+*Together, we're building the foundation for the next generation of medical breakthroughs.*
+
