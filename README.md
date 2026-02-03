@@ -1,1 +1,1 @@
-# pheno-docs-expeaded
+# pheno-docs-expanded
