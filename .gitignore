@@ -3,6 +3,7 @@
 
 # Build outputs
 docs-expanded/
+docs/
 
 # Quarto files
 .quarto/
@@ -30,4 +31,5 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
 
