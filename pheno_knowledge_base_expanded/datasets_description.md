@@ -2,12 +2,12 @@
 
 The Human Phenotype Project collects comprehensive health data across multiple modalities. Below is a complete list of all available datasets, organized by category.
 
-### Study Core
+### [Study Core](category_study_core.html)
 
-* [Population](datasets/000-population.html): Year of birth, month of birth, sex, and study ID.
-* [Events](datasets/001-events.html): Birth month/year, age at research stage, sex, follow‐up details, and visit dates.
+* [Population](datasets/000-population.html): Basic demographic information for all study participants.
+* [Events](datasets/001-events.html): Study visit timeline and participant research stage information.
 
-### Clinical Assessments
+### [Clinical Assessments](category_clinical_assessments.html)
 
 * [Anthropometrics](datasets/002-anthropometrics.html): Individual body measurement records (e.g. height, weight, circumferences).
 * [Hand Grip](datasets/006-hand_grip.html): Measurements of hand and finger grip strength.
@@ -18,7 +18,7 @@ The Human Phenotype Project collects comprehensive health data across multiple m
 * [Voice](datasets/027-voice.html): Voice recordings and acoustic analysis for speech patterns.
 * [Gait and Balance](datasets/032-gait.html): Comprehensive gait, balance, and movement assessments using motion capture technology.
 
-### Medical Imaging
+### [Medical Imaging](category_medical_imaging.html)
 
 * [Fundus](datasets/003-fundus.html): Retinal image files, vessel/artery/vein segmentations, and derived microvasculature features.
 * [Liver Ultrasound](datasets/004-liver_ultrasound.html): Derived liver measures (viscosity, elasticity, attenuation), auxiliary data, and aggregated information.
@@ -26,7 +26,7 @@ The Human Phenotype Project collects comprehensive health data across multiple m
 * [Carotid Ultrasound](datasets/012-carotid_ultrasound.html): Carotid intima-media thickness measurements from ultrasound imaging.
 * [Bone Density](datasets/022-bone_density.html): DXA measurements of bone mineral content and density, with age/sex/ethnicity normalized values.
 
-### Multi-Omics
+### [Multi-Omics](category_multi_omics.html)
 
 * [Serum Lipidomics](datasets/008-serum_lipidomics.html): High‐throughput lipid annotations from blood serum spectral data.
 * [Gut Microbiome](datasets/013-gut_microbiome.html): Gut metagenomic sequencing with QC statistics and relative abundance profiles.
@@ -35,16 +35,17 @@ The Human Phenotype Project collects comprehensive health data across multiple m
 * [Olink Proteomics](datasets/028-olink_proteomics.html): Proximity extension assay-based protein biomarker profiling.
 * [Nightingale Metabolomics](datasets/029-nightingale_metabolomics.html): NMR‐based quantification of blood serum metabolites (lipids, fatty acids, amino acids, etc.).
 * [Vaginal Microbiome](datasets/030-vaginal_microbiome.html): Microbial profiling of the vaginal microbiome.
+* [Untargeted Metabolomics](datasets/034-untargeted_metabolomics.html): High-throughput serum metabolomic profiles using LC-IM-MS to capture circulating small molecules.
 * [Oral Microbiome](datasets/070-oral_microbiome.html): Metagenomic profiles of the oral microbial community derived from buccal swabs.
 
-### Sensors and App Logging
+### [Sensors and App Logging](category_sensors_app_logging.html)
 
 * [Diet Logging](datasets/005-diet_logging.html): Detailed food logs per participant including macronutrient information.
 * [Sleep](datasets/009-sleep.html): Sleep staging, body positioning, respiratory events, heart rate, oxygen saturation, and snoring details.
 * [CGM](datasets/017-cgm.html): Continuous glucose monitoring data with temporal readings and computed summary features.
 * [Wearables](datasets/033-google_fit_apple_health.html): Physical activity, heart rate, sleep, and health data from wearable devices and health apps (Google Fit and Apple HealthKit).
 
-### Medical Records and Surveys
+### [Medical Records and Surveys](category_medical_records_surveys.html)
 
 * [Blood Tests](datasets/016-blood_tests.html): Participant‐provided blood (and urine) test results from routine clinical care.
 * [Medications](datasets/018-medications.html): Self‐reported medication usage (mapped to ATC codes) from various collection methods.
@@ -61,6 +62,6 @@ The Human Phenotype Project collects comprehensive health data across multiple m
 * [Psychological and Social Health](datasets/057-psychological_and_social_health.html): Self‐reported mental health, emotional well‐being, and social factors.
 * [Health and Medical History](datasets/058-health_and_medical_history.html): Comprehensive data on past and current health conditions, treatments, and surgeries.
 
-### Derived Phenotypes
+### [Derived Phenotypes](category_derived_phenotypes.html)
 
 * [Curated Phenotypes](datasets/100-curated_phenotypes.html): Algorithmically-defined health conditions and traits derived from integrated multi-modal data analysis.

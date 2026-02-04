@@ -307,6 +307,19 @@ body[class*="datasets"] #quarto-content > header {
 }
 
 /* ============================================
+   Category Links - Darker Color
+   ============================================ */
+#quarto-content h3 a {
+  color: #2c5282 !important;
+  font-weight: 600;
+}
+
+#quarto-content h3 a:hover {
+  color: #1a3a5c !important;
+  text-decoration: underline;
+}
+
+/* ============================================
    Responsive Design
    ============================================ */
 @media (max-width: 768px) {

@@ -60,6 +60,7 @@ website:
               - datasets/028-olink_proteomics.ipynb
               - datasets/029-nightingale_metabolomics.ipynb
               - datasets/030-vaginal_microbiome.ipynb
+              - datasets/034-untargeted_metabolomics.ipynb
               - datasets/070-oral_microbiome.ipynb
           - section: "Sensors and App Logging"
             href: category_sensors_app_logging.qmd
