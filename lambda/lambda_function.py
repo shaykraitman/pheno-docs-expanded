@@ -53,14 +53,8 @@ def load_context():
 WEBSITE_CONTENT = load_context()
 logger.info(f"Context loaded: {len(WEBSITE_CONTENT)} characters")
 
-def get_cors_headers():
-    """Get CORS headers for response"""
-    return {
-        'Access-Control-Allow-Origin': FRONTEND_URL,
-        'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type',
-        'Access-Control-Max-Age': '3600'
-    }
+# CORS headers removed - AWS Function URL handles CORS automatically
+# No need to add CORS headers in Lambda responses
 
 def save_conversation_to_s3(conversation_data):
     """Save conversation to S3"""
@@ -90,7 +84,6 @@ def handle_health(event):
     
     response = {
         'statusCode': 200,
-        'headers': get_cors_headers(),
         'body': json.dumps({
             'status': 'ok',
             'context_loaded': len(WEBSITE_CONTENT) > 0,
@@ -119,7 +112,6 @@ def handle_chat(event):
         if not user_question:
             return {
                 'statusCode': 400,
-                'headers': get_cors_headers(),
                 'body': json.dumps({'error': 'No question provided'})
             }
         
@@ -127,7 +119,6 @@ def handle_chat(event):
             logger.error("API key not configured")
             return {
                 'statusCode': 500,
-                'headers': get_cors_headers(),
                 'body': json.dumps({'error': 'API key not configured'})
             }
         
@@ -135,7 +126,6 @@ def handle_chat(event):
             logger.error("Context not loaded")
             return {
                 'statusCode': 500,
-                'headers': get_cors_headers(),
                 'body': json.dumps({'error': 'Context not loaded'})
             }
         
@@ -183,7 +173,6 @@ def handle_chat(event):
             
             return {
                 'statusCode': 500,
-                'headers': get_cors_headers(),
                 'body': json.dumps({'error': error_msg})
             }
         
@@ -217,7 +206,6 @@ def handle_chat(event):
         # Return response
         return {
             'statusCode': 200,
-            'headers': get_cors_headers(),
             'body': json.dumps({'answer': answer})
         }
         
@@ -225,32 +213,28 @@ def handle_chat(event):
         logger.error("Request timeout")
         return {
             'statusCode': 500,
-            'headers': get_cors_headers(),
             'body': json.dumps({'error': 'Request timeout. Please try again.'})
         }
     except requests.exceptions.RequestException as e:
         logger.error(f"Network error: {str(e)}")
         return {
             'statusCode': 500,
-            'headers': get_cors_headers(),
             'body': json.dumps({'error': f'Network error: {str(e)}'})
         }
     except Exception as e:
         logger.error(f"Unexpected error: {str(e)}", exc_info=True)
         return {
             'statusCode': 500,
-            'headers': get_cors_headers(),
             'body': json.dumps({'error': str(e)})
         }
 
 def lambda_handler(event, context):
     """Main Lambda handler"""
-    # Handle CORS preflight (OPTIONS request)
+    # Handle CORS preflight (OPTIONS request) - AWS Function URL handles this automatically
     if event.get('requestContext', {}).get('http', {}).get('method') == 'OPTIONS':
         logger.info("CORS preflight request")
         return {
             'statusCode': 200,
-            'headers': get_cors_headers(),
             'body': ''
         }
     
@@ -268,6 +252,5 @@ def lambda_handler(event, context):
     else:
         return {
             'statusCode': 404,
-            'headers': get_cors_headers(),
             'body': json.dumps({'error': 'Not found'})
         }
