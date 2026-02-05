@@ -133,123 +133,116 @@
     "text": "Zeevi D, Korem T, Godneva A, Bar N, Kurilshikov A, Lotan-Pompan M, Weinberger A, Fu J, Wijmenga C, Zhernakova A, Segal E, Nature"
   },
   {
-    "objectID": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html",
-    "href": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html",
-    "title": "A foundation model for continuous glucose monitoring data",
+    "objectID": "publications/2a21980a-e72d-4533-9313-303678fd412e.html",
+    "href": "publications/2a21980a-e72d-4533-9313-303678fd412e.html",
+    "title": "Host genetics and microbiome associations through the lens of genome wide association studies",
     "section": "",
-    "text": "Lutsker G, Sapir G, Shilo S, Merino J, Godneva A, Greenfield J, Samocha-Bonet D, Dhir R, Gude F, Mannor S, Meirom E, Xing E, Chechik G, Rossman H, Segal E, Nature"
+    "text": "Weissbrod O, Rothschild D, Barkan E, Segal E, Current Opinion in Microbiology"
   },
   {
-    "objectID": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html#paper-summary",
-    "href": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html#paper-summary",
-    "title": "A foundation model for continuous glucose monitoring data",
+    "objectID": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html",
+    "href": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html",
+    "title": "Deep phenotyping of health–disease continuum in the Human Phenotype Project",
+    "section": "",
+    "text": "Reicher L, Shilo S, Godneva A, Lutsker G, Zahavi L, Shoer S, Krongauz D, Rein M, Kohn S, Segev T, Schlesinger Y, Barak D, Levine Z, Keshet A, Shaulitch R, Lotan-Pompan M, Elkan M, Talmor-Barkan Y, Aviv Y, Dadiani M, Tsodyks Y, Gal-Yam E, Leibovitzh H, Werner L, Tzadok R, Maharshak N, Koga S, Glick-Gorman Y, Stossel C, Raitses-Gurevich M, Golan T, Dhir R, Reisner Y, Weinberger A, Rossman H, Song L, Xing E, Segal E, Nature Medicine"
+  },
+  {
+    "objectID": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html#paper-summary",
+    "href": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html#paper-summary",
+    "title": "Deep phenotyping of health–disease continuum in the Human Phenotype Project",
     "section": "Paper summary",
-    "text": "Paper summary\nContinuous glucose monitoring (CGM) provides high-resolution measurements of glucose dynamics, yet clinical assessment of glycaemic status still relies heavily on laboratory biomarkers such as HbA1c and on a limited set of handcrafted CGM-derived summary metrics. In this study, we introduce GluFormer, a transformer-based foundation model trained using self-supervised learning on more than 10 million CGM measurements from 10,812 adults in the Human Phenotype Project (HPP), the majority of whom did not have diabetes. By learning to autoregressively predict future glucose values from discretized CGM time series, the model captures latent representations of glycaemic physiology directly from raw CGM data.\nWe evaluated GluFormer across 19 external cohorts spanning five countries, eight CGM devices, and a wide range of metabolic and clinical contexts, including prediabetes, type 1 and type 2 diabetes, gestational diabetes, obesity, and multiple clinical trial populations. Across these settings, GluFormer-derived representations consistently improved prediction of contemporaneous and future glycaemic measures compared with standard CGM-derived metrics such as GMI, time-in-range, and glycaemic variability. In individuals with prediabetes, the model stratified two-year HbA1c trajectories more effectively than baseline HbA1c, identifying individuals at risk of glycaemic deterioration despite similar initial laboratory measurements.\nIn an independent population-based cohort with a median follow-up of 11 years, GluFormer embeddings were strongly associated with long-term clinical outcomes. The majority of incident diabetes cases and cardiovascular deaths occurred among individuals in the highest risk quartile defined by the model, whereas baseline HbA1c did not meaningfully stratify risk. These findings indicate that dynamic CGM patterns encode prognostic information that is not captured by static glycaemic biomarkers.\nBeyond outcome prediction, GluFormer accurately generated physiologically realistic CGM trajectories, reproducing key clinical glucose metrics across diverse populations, disease states, and devices. A multimodal extension of the model that integrates dietary information further improved prediction of postprandial glucose responses, demonstrating the potential of combining behavioral and physiological data within a unified foundation modeling framework. Together, this work establishes CGM-based foundation models as a scalable approach for extracting clinically relevant representations of metabolic health, with potential applications in early risk stratification, long-term outcome prediction, and precision medicine.\n\n\n\nimage\n\n\n\n\n\nimage"
+    "text": "Paper summary\nThe Human Phenotype Project (HPP) is a large-scale deep-phenotype prospective cohort. To date, approximately 28,000 participants have enrolled, with more than 13,000 completing their initial visit. The project is aimed at identifying novel molecular signatures with diagnostic, prognostic and therapeutic value, and at developing artificial intelligence (AI)-based predictive models for disease onset and progression. The HPP includes longitudinal profiling encompassing medical history, lifestyle and nutrition, anthropometrics, blood tests, continuous glucose and sleep monitoring, imaging and multi-omics data, including genetics, transcriptomics, microbiome (gut, vaginal and oral), metabolomics and immune profiling. Analysis of these data highlights the variation of phenotypes with age and ethnicity and unravels molecular signatures of disease by comparison with matched healthy controls. Leveraging extensive dietary and lifestyle data, we identify associations between lifestyle factors and health outcomes. Finally, we present a multi-modal foundation AI model, trained using self-supervised learning on diet and continuous-glucose-monitoring data, that outperforms existing methods in predicting disease onset. This framework can be extended to integrate other modalities and act as a personalized digital twin. In summary, we present a deeply phenotyped cohort that serves as a platform for advancing biomarker discovery, enabling the development of multi-modal AI models and personalized medicine approaches.\n\n\n\nimage"
   },
   {
-    "objectID": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html",
-    "href": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html",
-    "title": "Comprehensive Survey of Gut Microbiome Associations with Health Conditions in the Human Phenotype Project",
+    "objectID": "publications/1dd59130-bc80-43ba-b3ed-25559c242a38.html",
+    "href": "publications/1dd59130-bc80-43ba-b3ed-25559c242a38.html",
+    "title": "Environment dominates over host genetics in shaping human gut microbiota",
     "section": "",
-    "text": "Weissglas-Volkov D, Reisner Y, Shor T, Diament A, Jankelow A, Godneva A, Napier B, Dhir R, Segal E, BioRxiv"
+    "text": "Rothschild D, Weissbrod O, Barkan E, Kurilshikov A, Korem T, Zeevi D, Costea P, Godneva A, Kalka I, Bar N, Shilo S, Lador D, Vila A, Zmora N, Pevsner-Fischer M, Israeli D, Kosower N, Malka G, Wolf B, Avnit-Sagi T, Lotan-Pompan M, Weinberger A, Halpern Z, Carmi S, Fu J, Wijmenga C, Zhernakova A, Elinav E, Segal E, Nature"
   },
   {
-    "objectID": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html#paper-summary",
-    "href": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html#paper-summary",
-    "title": "Comprehensive Survey of Gut Microbiome Associations with Health Conditions in the Human Phenotype Project",
+    "objectID": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html",
+    "href": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html",
+    "title": "Phenome-wide associations of sleep characteristics in the Human Phenotype Project",
+    "section": "",
+    "text": "Kohn S, Diament A, Godneva A, Dhir R, Weinberger A, Reisner Y, Rossman H, Segal E, Nature Medicine"
+  },
+  {
+    "objectID": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html#paper-summary",
+    "href": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html#paper-summary",
+    "title": "Phenome-wide associations of sleep characteristics in the Human Phenotype Project",
+    "section": "Paper Summary",
+    "text": "Paper Summary\nThe paper demonstrates how multi-night, high-resolution sleep monitoring data from 6,366 individuals over 16,812 nights from the Human Phenotype Project (HPP) can predict health outcomes across multiple body systems. The study showcases the potential of wearable devices as tools for broad health insights. The study highlights HPP’s unique combination of multi-modal phenotypic data to advance disease risk prediction and personalized health solutions.\nKey findings demonstrate that sleep features are powerful predictors of metabolic, cardiovascular, and mental health outcomes, outperforming traditional metrics in some cases. The predictive models developed in this study offer new opportunities for clinical trial optimization, remote monitoring solutions, and personalized health insights.\nKey findings and numbers:\n\nMulti-modal disease prediction: Sleep traits predicted over 15% of body system traits across 15 of 16 systems, including cardiovascular, metabolic, and even mental health, highlighting the cross-system predictive power of HPP data.\nMetabolic and cardiovascular risk: The study shows that sleep test measures predict insulin resistance traits and blood lipid levels with greater accuracy than traditional metrics. For example, visceral fat (VAT), a key metabolic risk factor, was strongly correlated with the peripheral Apnea-Hypopnea Index (pAHI) (Spearman ρ = 0.52).\nLongitudinal consistency: The model tracked sleep features over time in individuals, showing high consistency in key markers like oxygen saturation and snoring levels, making it a potential tool for long-term health monitoring.\nMental health and lifestyle prediction: Sleep features predicted anxiety (AUC = 0.507 in males, 0.518 in females) and hyperlipidemia (AUC = 0.544 in males, 0.522 in females), beyond traditional metrics. Additionally, lifestyle factors explained over 50% of sleep test variability, highlighting the role of behavior in health outcomes.\nMedical diagnosis associations: The study identified sex-specific associations with various conditions, such as osteopenia, prediabetes, and hypertension in females, and allergy and back pain in males.\nThe study shows the effects of menopause on sleep apnea related metrics, showing that menopause is a strong contributor to sleep apnea independent of age and suggests some of the female sex-specific associations relate to menopausal status.\n\nThese results demonstrate the potential of sleep monitoring as a comprehensive health assessment tool. Sleep features could be used to identify at-risk individuals earlier, forecast clinical trial outcomes, and enable personalized interventions in chronic conditions like diabetes, cardiovascular disease, and sleep apnea.\nThis work paves the way for developing AI-based models using multi-night sleep data to improve health forecasting and preventative care across various medical domains. The HPP dataset provides unique value for commercial partners looking to integrate multi-modal health data and wearable devices into clinical research and digital health solutions.\n\n\n\nimage"
+  },
+  {
+    "objectID": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html",
+    "href": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html",
+    "title": "Rationale and design of a randomised controlled trial testing the effect of personalised diet in individuals with pre-diabetes or type 2 diabetes mellitus treated with metformin",
+    "section": "",
+    "text": "Htet T, Godneva A, Liu Z, Chalmers E, Kolobkov D, Snaith J, Richens R, Toth K, Danta M, Hng T, Elinav E, Segal E, Greenfield J, Samocha-Bonet D, BMJ Open"
+  },
+  {
+    "objectID": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html#paper-summary",
+    "href": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html#paper-summary",
+    "title": "Rationale and design of a randomised controlled trial testing the effect of personalised diet in individuals with pre-diabetes or type 2 diabetes mellitus treated with metformin",
     "section": "Paper summary",
-    "text": "Paper summary\nThe human gut microbiome is increasingly implicated with diverse health conditions, highlighting the importance of developing comprehensive resources to systematically map these associations. In this study, we leveraged the Human Phenotype Project (HPP) 10K cohort, a large, deeply phenotyped population study cohort with extensive metagenomic profiling, to explore associations between the gut microbiome and 37 health indications. These include conditions with established or emerging links to the microbiome, such as obesity, diabetes, hyperlipidemia, metabolic syndrome, inflammation, liver disease, cardiovascular and kidney conditions, immune and allergic diseases, gastrointestinal symptoms, mental health, and sleep-related traits. Using a curated set of approximately 200 refined phenotypic features and analyzing 1,184 microbial species, we performed robust statistical association analyses. We observed significant enrichment of associations in 14 health indications, with most associations reflecting increased microbial abundance in favorable health states, thereby suggesting potential microbial targets for intervention. This work introduces a publicly available, high-resolution resource to facilitate future research and support the development of microbiome-informed health strategies.\nThe inverted Manhattan plot below displays the log-transformed p-values for associations between microbiome features and multiple health indications. Each point represents a microbial species, with colors indicating different health indication categories.\n\n\n\nimage"
+    "text": "Paper summary\nIntroductionMetformin and diets aimed at promoting healthy body weight are the first line in treating type 2 diabetes mellitus (T2DM). Clinical practice, backed by clinical trials, suggests that many individuals do not reach glycaemic targets using this approach alone. The primary aim of the Personalised Medicine in Pre-diabetes—Towards Preventing Diabetes in Individuals at Risk (PREDICT) Study is to test the efficacy of personalised diet as adjuvant to metformin in improving glycaemic control in individuals with dysglycaemia.Methods and analysisPREDICT is a two-arm, parallel group, single-masked randomised controlled trial in adults with pre-diabetes or early-stage T2DM (with glycated haemoglobin (HbA1c) up to 8.0% (64 mmol/mol)), not treated with glucose-lowering medication. PREDICT is conducted at the Clinical Research Facility at the Garvan Institute of Medical Research (Sydney). Enrolment of participants commenced in December 2018 and expected to complete in December 2021. Participants are commenced on metformin (Extended Release, titrated to a target dose of 1500 mg/day) and randomised with equal allocation to either (1) the Personalised Nutrition Project algorithm-based diet or (2) low-fat high-dietary fibre diet, designed to provide caloric restriction (75%) in individuals with body mass index &gt;25 kg/m2. Treatment duration is 6 months and participants visit the Clinical Research Facility five times over approximately 7 months. The primary outcome measure is HbA1c. The secondary outcomes are (1) time of interstitial glucose &lt;7.8 mmol/L and (2) glycaemic variability (continuous glucose monitoring), (3) body weight, (4) fat mass and (5) abdominal visceral fat volume (dual-energy X-ray absorptiometry), serum (6) low-density lipoprotein cholesterol (7) high-density lipoprotein cholesterol and (8) triglycerides concentrations, (9) blood pressure, and (10) liver fat (Fibroscan).Ethics and disseminationThe study has been approved by the St Vincent’s Hospital Human Research Ethics Committee (File 17/080, Sydney, Australia) and the Weizmann Institutional Review Board (File 528-3, Rehovot, Israel). The findings will be published in peer-reviewed open access medical journals.Trial registration numberNCT03558867."
   },
   {
-    "objectID": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html",
-    "href": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html",
-    "title": "Prediction of Personal Glycemic Responses to Food for Individuals With Type 1 Diabetes Through Integration of Clinical and Microbial Data",
+    "objectID": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html",
+    "href": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html",
+    "title": "Phenome-wide associations of human aging uncover sex-specific dynamics",
     "section": "",
-    "text": "Shilo S, Godneva A, Rachmiel M, Korem T, Kolobkov D, Karady T, Bar N, Wolf B, Glantz-Gashai Y, Cohen M, Zuckerman Levin N, Shehadeh N, Gruber N, Levran N, Koren S, Weinberger A, Pinhas-Hamiel O, Segal E, Diabetes Care"
+    "text": "Reicher L, Bar N, Godneva A, Reisner Y, Zahavi L, Shahaf N, Dhir R, Weinberger A, Segal E, Nature Aging"
   },
   {
-    "objectID": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html#paper-summary",
-    "href": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html#paper-summary",
-    "title": "Prediction of Personal Glycemic Responses to Food for Individuals With Type 1 Diabetes Through Integration of Clinical and Microbial Data",
+    "objectID": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html#paper-summary",
+    "href": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html#paper-summary",
+    "title": "Phenome-wide associations of human aging uncover sex-specific dynamics",
     "section": "Paper summary",
-    "text": "Paper summary\n OBJECTIVE Despite technological advances, results from various clinical trials have repeatedly shown that many individuals with type 1 diabetes (T1D) do not achieve their glycemic goals. One of the major challenges in disease management is the administration of an accurate amount of insulin for each meal that will match the expected postprandial glycemic response (PPGR). The objective of this study was to develop a prediction model for PPGR in individuals with T1D.   RESEARCH DESIGN AND METHODS We recruited individuals with T1D who were using continuous glucose monitoring and continuous subcutaneous insulin infusion devices simultaneously to a prospective cohort and profiled them for 2 weeks. Participants were asked to report real-time dietary intake using a designated mobile app. We measured their PPGRs and devised machine learning algorithms for PPGR prediction, which integrate glucose measurements, insulin dosages, dietary habits, blood parameters, anthropometrics, exercise, and gut microbiota. Data of the PPGR of 900 healthy individuals to 41,371 meals were also integrated into the model. The performance of the models was evaluated with 10-fold cross validation.   RESULTS A total of 121 individuals with T1D, 75 adults and 46 children, were included in the study. PPGR to 6,377 meals was measured. Our PPGR prediction model substantially outperforms a baseline model with emulation of standard of care (correlation of R = 0.59 compared with R = 0.40 for predicted and observed PPGR respectively; P &lt; 10−10). The model was robust across different subpopulations. Feature attribution analysis revealed that glucose levels at meal initiation, glucose trend 30 min prior to meal, meal carbohydrate content, and meal’s carbohydrate-to-fat ratio were the most influential features for the model.   CONCLUSIONS Our model enables a more accurate prediction of PPGR and therefore may allow a better adjustment of the required insulin dosage for meals. It can be further implemented in closed loop systems and may lead to rationally designed nutritional interventions personally tailored for individuals with T1D on the basis of meals with expected low glycemic response."
+    "text": "Paper summary\n\nTL;DR Summary\n💡\n- Researchers used data from the Human Phenotype Project to create sex-specific biological age (BA) models. \n\n- Findings showed that biological systems age differently between sexes; BA models based on bone density and cardiovascular markers performed better in women, potentially due effects of menopause.\n\n- This study supports personalized prevention strategies, emphasizing the need for sex-specific interventions in aging.\n\n\nFull Summary\nThis study analyzed data from the Human Phenotype Project - a deeply phenotyped cohort of 10,000 individuals aged 40-70 years to develop biological age (BA) models that reveal distinct aging patterns across various physiological systems.\nBy leveraging multiomic, clinical, and environmental data collected in the Human Phenotype Project, the researchers devised sex-specific machine learning models to estimate BA and its relationship to age-related diseases. The findings revealed notable differences in aging dynamics between males and females, with distinct BA scores correlating with age-related health conditions. Notably, BA scores provided insights into sex-specific risks, such as a higher incidence of osteoporosis in aging women, emphasizing the potential role of menopause in accelerating certain aging processes.\nThe study also highlighted that biological systems age differently between men and women, as evidenced by the variability of biological aging models based on bone density, blood lipids, and cardiovascular function. These models demonstrated better performance among women, potentially reflecting the effects of menopause. The research underscores the significance of considering sex as a biological variable in aging studies and its impact on clinical outcomes. These findings offer a holistic view of aging, which can drive personalized medical prevention strategies and the development of sex-specific interventions to mitigate the impact of aging-related diseases, ultimately contributing to healthier aging.\n\n\n\nimage"
   },
   {
-    "objectID": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html",
-    "href": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html",
-    "title": "Unveiling Associations Between Retinal Microvascular Architecture and Phenotypes Across Thousands of Healthy Subjects",
+    "objectID": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html",
+    "href": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html",
+    "title": "A Multimodal Dataset of 21,412 Recorded Nights for Sleep and Respiratory Research",
     "section": "",
-    "text": "Shapira M, Shilo S, Talmor-Barkan Y, Aviv Y, Reisner Y, Godneva A, Weinberger A, Skaat A, Loewenstein A, Segal E, Rossman H, arXiv"
+    "text": "Diament A, Gorodetski M, Jankelow A, Keshet A, Shor T, Weissglas-Volkov D, Rossman H, Segal E, ML4H (arXiv)"
   },
   {
-    "objectID": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html#paper-summary",
-    "href": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html#paper-summary",
-    "title": "Unveiling Associations Between Retinal Microvascular Architecture and Phenotypes Across Thousands of Healthy Subjects",
+    "objectID": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html#paper-summary",
+    "href": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html#paper-summary",
+    "title": "A Multimodal Dataset of 21,412 Recorded Nights for Sleep and Respiratory Research",
     "section": "Paper summary",
-    "text": "Paper summary\nAbstract Fundus imaging has emerged as a powerful tool, allowing high-resolution and non-invasive visualization of the fundus microvasculature. Recent advancements in artificial intelligence (AI) have enabled the quantification of fundus microvascular characteristics, paving the way for the development of predictive markers for systemic conditions. In this study, we characterize the fundus microvasculature among 8467 healthy individuals, aged 40-70 years. We employ a fully automated segmentation tool to calculate 12 distinct vessel measures, including tortuosity density, vessel density, average width, fractal dimension, distance tortuosity, and curvature tortuosity for both arteries and veins. We provide reference values for these measures by age and sex, and explore the associations between these fundus vessel measures and various clinical features. Our analysis reveals numerous significant correlations, including connections between fundus arterial measures and cardiovascular measurements, lipid profile, sleep apnea indices, glycemic profile, body composition, and smoking status. This comprehensive analysis of fundus microvasculature anatomy in a large healthy population contributes to the growing field of oculomics and highlights the potential of fundus imaging for earlier detection and monitoring of systemic diseases such as metabolic syndrome, cardiovascular diseases and sleep disorders.\nAbstract Fundus imaging has emerged as a powerful tool, allowing high-resolution and non-invasive visualization of the fundus microvasculature. Recent advancements in artificial intelligence (AI) have enabled the quantification of fundus microvascular characteristics, paving the way for the development of predictive markers for systemic conditions. In this study, we characterize the fundus microvasculature among 8467 healthy individuals, aged 40-70 years. We employ a fully automated segmentation tool to calculate 12 distinct vessel measures, including tortuosity density, vessel density, average width, fractal dimension, distance tortuosity, and curvature tortuosity for both arteries and veins. We provide reference values for these measures by age and sex, and explore the associations between these fundus vessel measures and various clinical features. Our analysis reveals numerous significant correlations, including connections between fundus arterial measures and cardiovascular measurements, lipid profile, sleep apnea indices, glycemic profile, body composition, and smoking status. This comprehensive analysis of fundus microvasculature anatomy in a large healthy population contributes to the growing field of oculomics and highlights the potential of fundus imaging for earlier detection and monitoring of systemic diseases such as metabolic syndrome, cardiovascular diseases and sleep disorders."
+    "text": "Paper summary\nThis study introduces a novel, rich dataset obtained from home sleep apnea tests using the FDA-approved WatchPAT-300 device, collected from 7,077 participants over 21,412 nights. The dataset comprises three levels of sleep data: raw multi-channel time-series from sensors, annotated sleep events, and computed summary statistics, which include 447 features related to sleep architecture, sleep apnea, and heart rate variability (HRV). We present reference values for Apnea/Hypopnea Index (AHI), sleep efficiency, Wake After Sleep Onset (WASO), and HRV sample entropy, stratified by age and sex. Moreover, we demonstrate that the dataset improves the predictive capability for various health related traits, including body composition, bone density, blood sugar levels and cardiovascular health. These results illustrate the dataset’s potential to advance sleep research, personalized healthcare, and machine learning applications in biomedicine."
   },
   {
-    "objectID": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html",
-    "href": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html",
-    "title": "COMPRER: A Multimodal Multi-Objective Pretraining Framework for Enhanced Medical Image Representation",
+    "objectID": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html",
+    "href": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html",
+    "title": "Pangenomes of human gut microbiota uncover links between genetic diversity and stress response",
     "section": "",
-    "text": "Lutsker G, Rossman H, Godneva N, Segal E, medRxiv"
+    "text": "Shoer S, Reicher L, Zhao C, Pollard K, Pilpel Y, Segal E, Cell Host & Microbe"
   },
   {
-    "objectID": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html#paper-summary",
-    "href": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html#paper-summary",
-    "title": "COMPRER: A Multimodal Multi-Objective Pretraining Framework for Enhanced Medical Image Representation",
+    "objectID": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html#paper-summary",
+    "href": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html#paper-summary",
+    "title": "Pangenomes of human gut microbiota uncover links between genetic diversity and stress response",
     "section": "Paper summary",
-    "text": "Paper summary\nABSTRACT Substantial advances in multi-modal Artificial Intelligence (AI) facilitate the combination of diverse medical modalities to achieve holistic health assessments. We present COMPRER, a novel multi-modal, multi-objective pretraining framework which enhances medical-image representation, diagnostic inferences, and prognosis of diseases. COMPRER employs a multi-objective training framework, where each objective introduces distinct knowledge to the model. This includes a multi-modal loss that consolidates information across different imaging modalities; A temporal loss that imparts the ability to discern patterns over time; Medical-measure prediction adds appropriate medical insights; Lastly, reconstruction loss ensures the integrity of image structure within the latent space. Despite the concern that multiple objectives could weaken task performance, our findings show that this combination actually boosts outcomes on certain tasks. Here, we apply this framework to both fundus images and carotid ultrasound, and validate our downstream tasks capabilities by predicting both current and future cardiovascular conditions. COMPRER achieved higher Area Under the Curve (AUC) scores in evaluating medical conditions compared to existing models on held-out data. On the Out-of-distribution (OOD) UK-Biobank dataset COMPRER maintains favorable performance over well-established models with more parameters, even though these models were trained on 75× more data than COMPRER. In addition, to better assess our model’s performance in contrastive learning, we introduce a novel evaluation metric, providing deeper understanding of the effectiveness of the latent space pairing."
+    "text": "Paper summary\nThe genetic diversity of the gut microbiota has a central role in host health. Here, we created pangenomes for 728 human gut prokaryotic species, quadrupling the genes of strain-specific genomes. Each of these species has a core set of a thousand genes, differing even between closely related species, and an accessory set of genes unique to the different strains. Functional analysis shows high strain variability associates with sporulation, whereas low variability is linked with antibiotic resistance. We further map the antibiotic resistome across the human gut population and find 237 cases of extreme resistance even to last-resort antibiotics, with a predominance among Enterobacteriaceae. Lastly, the presence of specific genes in the microbiota relates to host age and sex. Our study underscores the genetic complexity of the human gut microbiota, emphasizing its significant implications for host health. The pangenomes and antibiotic resistance map constitute a valuable resource for further research.\n\n\n\nimage"
   },
   {
-    "objectID": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html",
-    "href": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html",
-    "title": "Sex-specific dietary habits and their association with weight change in healthy adults",
+    "objectID": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html",
+    "href": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html",
+    "title": "The Gut Microbiome of Adults With Type 1 Diabetes and Its Association With the Host Glycemic Control",
     "section": "",
-    "text": "Rein M, Elkan M, Godneva A, Dolev N, Segal E, BMC Medicine"
+    "text": "Shilo S, Godneva A, Rachmiel M, Korem T, Bussi Y, Kolobkov D, Karady T, Bar N, Wolf B, Glantz-Gashai Y, Cohen M, Levin N, Shehadeh N, Gruber N, Levran N, Koren S, Weinberger A, Pinhas-Hamiel O, Segal E, Diabetes Care"
   },
   {
-    "objectID": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html#paper-summary",
-    "href": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html#paper-summary",
-    "title": "Sex-specific dietary habits and their association with weight change in healthy adults",
+    "objectID": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html#paper-summary",
+    "href": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html#paper-summary",
+    "title": "The Gut Microbiome of Adults With Type 1 Diabetes and Its Association With the Host Glycemic Control",
     "section": "Paper summary",
-    "text": "Paper summary\nThe study leverages a unique dataset to explore the relationship between diet and obesity management, focusing on gender-specific dietary impacts.\nThe study analyzed how different food categories influence body mass index (BMI) at baseline and weight change over time.\nThe authors discovered that dietary habits and their effects on weight management vary significantly by sex. In men, weight loss was associated with increased intake of animal-based proteins, whereas in women, it correlated with a higher consumption of plant-based fats. These findings suggest that personalized dietary interventions considering gender-specific needs could enhance obesity management effectiveness. This research underscores the value of our detailed diet logging data in developing targeted nutritional strategies.\n\n\n\nimage"
-  },
-  {
-    "objectID": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html",
-    "href": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html",
-    "title": "Identification of gut microbiome features associated with host metabolic health in a large population-based cohort",
-    "section": "",
-    "text": "Keshet A, Segal E, Nature Communications"
-  },
-  {
-    "objectID": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html#paper-summary",
-    "href": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html#paper-summary",
-    "title": "Identification of gut microbiome features associated with host metabolic health in a large population-based cohort",
-    "section": "Paper summary",
-    "text": "Paper summary\n\nThis paper examines the relationship between gut microbiome and Host metabolic health.\nMicrobiome data was analyzed on a functional level - examining microbial gene families and metabolic pathways that are contributed by the entire gut microbiome community.\nFor host metabolic health 38 measures were examined - from CGM, DXA and liver US.\nSignificant associations were uncovered between microbial gene families and pathways and host metabolic health. Many significant associations were observed specifically for body composition measures.\nVariability was found in the number of species and genera contributing to the abundance of the associated gene families and pathways - suggesting that the discovered associations do not represent a unique species or genera but an association with a community level functionality.\nMost of the associations remained unchanged when adjusting for nutritional information for diet logging, with CGM within-day variability measures most affected with a reduction in the amount of significant associations.\nAssociations with BMI were replicated in an external cohort of Dutch microbiome.\nThis results could pave the way for future research on the relation between microbiome and host metabolic health, and perhaps to the development of microbiome based therapeutics."
-  },
-  {
-    "objectID": "publications/1215a04e-d02c-4fab-8ce7-6a4ec35781f2.html",
-    "href": "publications/1215a04e-d02c-4fab-8ce7-6a4ec35781f2.html",
-    "title": "Population-wide diversity and stability of serum antibody epitope repertoires against human microbiota",
-    "section": "",
-    "text": "Vogl T, Klompus S, Leviatan S, Kalka I, Weinberger A, Wijmenga C, Fu J, Zhernakova A, Weersma R, Segal E, Nature Medicine"
-  },
-  {
-    "objectID": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html",
-    "href": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html",
-    "title": "Impact of dietary interventions on pre-diabetic oral and gut microbiome, metabolites and cytokines",
-    "section": "",
-    "text": "Shoer S, Shilo S, Godneva A, Ben-Yacov O, Rein M, Wolf B, Lotan-Pompan M, Bar N, Weiss E, Houri-Haddad Y, Pilpel Y, Weinberger A, Segal E, Nature Communications"
-  },
-  {
-    "objectID": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html#paper-summary",
-    "href": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html#paper-summary",
-    "title": "Impact of dietary interventions on pre-diabetic oral and gut microbiome, metabolites and cytokines",
-    "section": "Paper summary",
-    "text": "Paper summary\nDiabetes and associated comorbidities are a global health threat on the rise. We conducted a six-month dietary intervention in pre-diabetic individuals (NCT03222791), to mitigate the hyperglycemia and enhance metabolic health. The current work explores early diabetes markers in the 200 individuals who completed the trial. We find 166 of 2,803 measured features, including oral and gut microbial species and pathways, serum metabolites and cytokines, show significant change in response to a personalized postprandial glucose-targeting diet or the standard of care Mediterranean diet. These changes include established markers of hyperglycemia as well as novel features that can now be investigated as potential therapeutic targets. Our results indicate the microbiome mediates the effect of diet on glycemic, metabolic and immune measurements, with gut microbiome compositional change explaining 12.25% of serum metabolites variance. Although the gut microbiome displays greater compositional changes compared to the oral microbiome, the oral microbiome demonstrates more changes at the genetic level, with trends dependent on environmental richness and species prevalence in the population. In conclusion, our study shows dietary interventions can affect the microbiome, cardiometabolic profile and immune response of the host, and that these factors are well associated with each other, and can be harnessed for new therapeutic modalities.\n\n\n\nimage"
+    "text": "Paper summary\n OBJECTIVE Previous studies have demonstrated an association between gut microbiota composition and type 1 diabetes (T1D) pathogenesis. However, little is known about the composition and function of the gut microbiome in adults with longstanding T1D or its association with host glycemic control.   RESEARCH DESIGN AND METHODS We performed a metagenomic analysis of the gut microbiome obtained from fecal samples of 74 adults with T1D, 14.6 ± 9.6 years following diagnosis, and compared their microbial composition and function to 296 age-matched healthy control subjects (1:4 ratio). We further analyzed the association between microbial taxa and indices of glycemic control derived from continuous glucose monitoring measurements and blood tests and constructed a prediction model that solely takes microbiome features as input to evaluate the discriminative power of microbial composition for distinguishing individuals with T1D from control subjects.   RESULTS Adults with T1D had a distinct microbial signature that separated them from control subjects when using prediction algorithms on held-out subjects (area under the receiver operating characteristic curve = 0.89 ± 0.03). Linear discriminant analysis showed several bacterial species with significantly higher scores in T1D, including Prevotella copri and Eubacterium siraeum, and species with higher scores in control subjects, including Firmicutes bacterium and Faecalibacterium prausnitzii (P &lt; 0.05, false discovery rate corrected for all). On the functional level, several metabolic pathways were significantly lower in adults with T1D. Several bacterial taxa and metabolic pathways were associated with the host’s glycemic control.   CONCLUSIONS We identified a distinct gut microbial signature in adults with longstanding T1D and associations between microbial taxa, metabolic pathways, and glycemic control indices. Additional mechanistic studies are needed to identify the role of these bacteria for potential therapeutic strategies."
   },
   {
     "objectID": "category_derived_phenotypes.html",
@@ -1456,118 +1449,6 @@
     ]
   },
   {
-    "objectID": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html",
-    "href": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html",
-    "title": "The Gut Microbiome of Adults With Type 1 Diabetes and Its Association With the Host Glycemic Control",
-    "section": "",
-    "text": "Shilo S, Godneva A, Rachmiel M, Korem T, Bussi Y, Kolobkov D, Karady T, Bar N, Wolf B, Glantz-Gashai Y, Cohen M, Levin N, Shehadeh N, Gruber N, Levran N, Koren S, Weinberger A, Pinhas-Hamiel O, Segal E, Diabetes Care"
-  },
-  {
-    "objectID": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html#paper-summary",
-    "href": "publications/0018b2d3-d9cc-4350-a938-aefb31f9b07f.html#paper-summary",
-    "title": "The Gut Microbiome of Adults With Type 1 Diabetes and Its Association With the Host Glycemic Control",
-    "section": "Paper summary",
-    "text": "Paper summary\n OBJECTIVE Previous studies have demonstrated an association between gut microbiota composition and type 1 diabetes (T1D) pathogenesis. However, little is known about the composition and function of the gut microbiome in adults with longstanding T1D or its association with host glycemic control.   RESEARCH DESIGN AND METHODS We performed a metagenomic analysis of the gut microbiome obtained from fecal samples of 74 adults with T1D, 14.6 ± 9.6 years following diagnosis, and compared their microbial composition and function to 296 age-matched healthy control subjects (1:4 ratio). We further analyzed the association between microbial taxa and indices of glycemic control derived from continuous glucose monitoring measurements and blood tests and constructed a prediction model that solely takes microbiome features as input to evaluate the discriminative power of microbial composition for distinguishing individuals with T1D from control subjects.   RESULTS Adults with T1D had a distinct microbial signature that separated them from control subjects when using prediction algorithms on held-out subjects (area under the receiver operating characteristic curve = 0.89 ± 0.03). Linear discriminant analysis showed several bacterial species with significantly higher scores in T1D, including Prevotella copri and Eubacterium siraeum, and species with higher scores in control subjects, including Firmicutes bacterium and Faecalibacterium prausnitzii (P &lt; 0.05, false discovery rate corrected for all). On the functional level, several metabolic pathways were significantly lower in adults with T1D. Several bacterial taxa and metabolic pathways were associated with the host’s glycemic control.   CONCLUSIONS We identified a distinct gut microbial signature in adults with longstanding T1D and associations between microbial taxa, metabolic pathways, and glycemic control indices. Additional mechanistic studies are needed to identify the role of these bacteria for potential therapeutic strategies."
-  },
-  {
-    "objectID": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html",
-    "href": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html",
-    "title": "Pangenomes of human gut microbiota uncover links between genetic diversity and stress response",
-    "section": "",
-    "text": "Shoer S, Reicher L, Zhao C, Pollard K, Pilpel Y, Segal E, Cell Host & Microbe"
-  },
-  {
-    "objectID": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html#paper-summary",
-    "href": "publications/120c42c7-a9e4-8039-baaf-e5c618103a4d.html#paper-summary",
-    "title": "Pangenomes of human gut microbiota uncover links between genetic diversity and stress response",
-    "section": "Paper summary",
-    "text": "Paper summary\nThe genetic diversity of the gut microbiota has a central role in host health. Here, we created pangenomes for 728 human gut prokaryotic species, quadrupling the genes of strain-specific genomes. Each of these species has a core set of a thousand genes, differing even between closely related species, and an accessory set of genes unique to the different strains. Functional analysis shows high strain variability associates with sporulation, whereas low variability is linked with antibiotic resistance. We further map the antibiotic resistome across the human gut population and find 237 cases of extreme resistance even to last-resort antibiotics, with a predominance among Enterobacteriaceae. Lastly, the presence of specific genes in the microbiota relates to host age and sex. Our study underscores the genetic complexity of the human gut microbiota, emphasizing its significant implications for host health. The pangenomes and antibiotic resistance map constitute a valuable resource for further research.\n\n\n\nimage"
-  },
-  {
-    "objectID": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html",
-    "href": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html",
-    "title": "A Multimodal Dataset of 21,412 Recorded Nights for Sleep and Respiratory Research",
-    "section": "",
-    "text": "Diament A, Gorodetski M, Jankelow A, Keshet A, Shor T, Weissglas-Volkov D, Rossman H, Segal E, ML4H (arXiv)"
-  },
-  {
-    "objectID": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html#paper-summary",
-    "href": "publications/125c42c7-a9e4-806c-964c-eeac81f1567f.html#paper-summary",
-    "title": "A Multimodal Dataset of 21,412 Recorded Nights for Sleep and Respiratory Research",
-    "section": "Paper summary",
-    "text": "Paper summary\nThis study introduces a novel, rich dataset obtained from home sleep apnea tests using the FDA-approved WatchPAT-300 device, collected from 7,077 participants over 21,412 nights. The dataset comprises three levels of sleep data: raw multi-channel time-series from sensors, annotated sleep events, and computed summary statistics, which include 447 features related to sleep architecture, sleep apnea, and heart rate variability (HRV). We present reference values for Apnea/Hypopnea Index (AHI), sleep efficiency, Wake After Sleep Onset (WASO), and HRV sample entropy, stratified by age and sex. Moreover, we demonstrate that the dataset improves the predictive capability for various health related traits, including body composition, bone density, blood sugar levels and cardiovascular health. These results illustrate the dataset’s potential to advance sleep research, personalized healthcare, and machine learning applications in biomedicine."
-  },
-  {
-    "objectID": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html",
-    "href": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html",
-    "title": "Phenome-wide associations of human aging uncover sex-specific dynamics",
-    "section": "",
-    "text": "Reicher L, Bar N, Godneva A, Reisner Y, Zahavi L, Shahaf N, Dhir R, Weinberger A, Segal E, Nature Aging"
-  },
-  {
-    "objectID": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html#paper-summary",
-    "href": "publications/135c42c7-a9e4-800e-968b-de6f6f3e7b8c.html#paper-summary",
-    "title": "Phenome-wide associations of human aging uncover sex-specific dynamics",
-    "section": "Paper summary",
-    "text": "Paper summary\n\nTL;DR Summary\n💡\n- Researchers used data from the Human Phenotype Project to create sex-specific biological age (BA) models. \n\n- Findings showed that biological systems age differently between sexes; BA models based on bone density and cardiovascular markers performed better in women, potentially due effects of menopause.\n\n- This study supports personalized prevention strategies, emphasizing the need for sex-specific interventions in aging.\n\n\nFull Summary\nThis study analyzed data from the Human Phenotype Project - a deeply phenotyped cohort of 10,000 individuals aged 40-70 years to develop biological age (BA) models that reveal distinct aging patterns across various physiological systems.\nBy leveraging multiomic, clinical, and environmental data collected in the Human Phenotype Project, the researchers devised sex-specific machine learning models to estimate BA and its relationship to age-related diseases. The findings revealed notable differences in aging dynamics between males and females, with distinct BA scores correlating with age-related health conditions. Notably, BA scores provided insights into sex-specific risks, such as a higher incidence of osteoporosis in aging women, emphasizing the potential role of menopause in accelerating certain aging processes.\nThe study also highlighted that biological systems age differently between men and women, as evidenced by the variability of biological aging models based on bone density, blood lipids, and cardiovascular function. These models demonstrated better performance among women, potentially reflecting the effects of menopause. The research underscores the significance of considering sex as a biological variable in aging studies and its impact on clinical outcomes. These findings offer a holistic view of aging, which can drive personalized medical prevention strategies and the development of sex-specific interventions to mitigate the impact of aging-related diseases, ultimately contributing to healthier aging.\n\n\n\nimage"
-  },
-  {
-    "objectID": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html",
-    "href": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html",
-    "title": "Rationale and design of a randomised controlled trial testing the effect of personalised diet in individuals with pre-diabetes or type 2 diabetes mellitus treated with metformin",
-    "section": "",
-    "text": "Htet T, Godneva A, Liu Z, Chalmers E, Kolobkov D, Snaith J, Richens R, Toth K, Danta M, Hng T, Elinav E, Segal E, Greenfield J, Samocha-Bonet D, BMJ Open"
-  },
-  {
-    "objectID": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html#paper-summary",
-    "href": "publications/1534de69-4df4-4c1c-945b-f8385a71a998.html#paper-summary",
-    "title": "Rationale and design of a randomised controlled trial testing the effect of personalised diet in individuals with pre-diabetes or type 2 diabetes mellitus treated with metformin",
-    "section": "Paper summary",
-    "text": "Paper summary\nIntroductionMetformin and diets aimed at promoting healthy body weight are the first line in treating type 2 diabetes mellitus (T2DM). Clinical practice, backed by clinical trials, suggests that many individuals do not reach glycaemic targets using this approach alone. The primary aim of the Personalised Medicine in Pre-diabetes—Towards Preventing Diabetes in Individuals at Risk (PREDICT) Study is to test the efficacy of personalised diet as adjuvant to metformin in improving glycaemic control in individuals with dysglycaemia.Methods and analysisPREDICT is a two-arm, parallel group, single-masked randomised controlled trial in adults with pre-diabetes or early-stage T2DM (with glycated haemoglobin (HbA1c) up to 8.0% (64 mmol/mol)), not treated with glucose-lowering medication. PREDICT is conducted at the Clinical Research Facility at the Garvan Institute of Medical Research (Sydney). Enrolment of participants commenced in December 2018 and expected to complete in December 2021. Participants are commenced on metformin (Extended Release, titrated to a target dose of 1500 mg/day) and randomised with equal allocation to either (1) the Personalised Nutrition Project algorithm-based diet or (2) low-fat high-dietary fibre diet, designed to provide caloric restriction (75%) in individuals with body mass index &gt;25 kg/m2. Treatment duration is 6 months and participants visit the Clinical Research Facility five times over approximately 7 months. The primary outcome measure is HbA1c. The secondary outcomes are (1) time of interstitial glucose &lt;7.8 mmol/L and (2) glycaemic variability (continuous glucose monitoring), (3) body weight, (4) fat mass and (5) abdominal visceral fat volume (dual-energy X-ray absorptiometry), serum (6) low-density lipoprotein cholesterol (7) high-density lipoprotein cholesterol and (8) triglycerides concentrations, (9) blood pressure, and (10) liver fat (Fibroscan).Ethics and disseminationThe study has been approved by the St Vincent’s Hospital Human Research Ethics Committee (File 17/080, Sydney, Australia) and the Weizmann Institutional Review Board (File 528-3, Rehovot, Israel). The findings will be published in peer-reviewed open access medical journals.Trial registration numberNCT03558867."
-  },
-  {
-    "objectID": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html",
-    "href": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html",
-    "title": "Phenome-wide associations of sleep characteristics in the Human Phenotype Project",
-    "section": "",
-    "text": "Kohn S, Diament A, Godneva A, Dhir R, Weinberger A, Reisner Y, Rossman H, Segal E, Nature Medicine"
-  },
-  {
-    "objectID": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html#paper-summary",
-    "href": "publications/189c42c7-a9e4-80ab-812b-cd8ffac0f24b.html#paper-summary",
-    "title": "Phenome-wide associations of sleep characteristics in the Human Phenotype Project",
-    "section": "Paper Summary",
-    "text": "Paper Summary\nThe paper demonstrates how multi-night, high-resolution sleep monitoring data from 6,366 individuals over 16,812 nights from the Human Phenotype Project (HPP) can predict health outcomes across multiple body systems. The study showcases the potential of wearable devices as tools for broad health insights. The study highlights HPP’s unique combination of multi-modal phenotypic data to advance disease risk prediction and personalized health solutions.\nKey findings demonstrate that sleep features are powerful predictors of metabolic, cardiovascular, and mental health outcomes, outperforming traditional metrics in some cases. The predictive models developed in this study offer new opportunities for clinical trial optimization, remote monitoring solutions, and personalized health insights.\nKey findings and numbers:\n\nMulti-modal disease prediction: Sleep traits predicted over 15% of body system traits across 15 of 16 systems, including cardiovascular, metabolic, and even mental health, highlighting the cross-system predictive power of HPP data.\nMetabolic and cardiovascular risk: The study shows that sleep test measures predict insulin resistance traits and blood lipid levels with greater accuracy than traditional metrics. For example, visceral fat (VAT), a key metabolic risk factor, was strongly correlated with the peripheral Apnea-Hypopnea Index (pAHI) (Spearman ρ = 0.52).\nLongitudinal consistency: The model tracked sleep features over time in individuals, showing high consistency in key markers like oxygen saturation and snoring levels, making it a potential tool for long-term health monitoring.\nMental health and lifestyle prediction: Sleep features predicted anxiety (AUC = 0.507 in males, 0.518 in females) and hyperlipidemia (AUC = 0.544 in males, 0.522 in females), beyond traditional metrics. Additionally, lifestyle factors explained over 50% of sleep test variability, highlighting the role of behavior in health outcomes.\nMedical diagnosis associations: The study identified sex-specific associations with various conditions, such as osteopenia, prediabetes, and hypertension in females, and allergy and back pain in males.\nThe study shows the effects of menopause on sleep apnea related metrics, showing that menopause is a strong contributor to sleep apnea independent of age and suggests some of the female sex-specific associations relate to menopausal status.\n\nThese results demonstrate the potential of sleep monitoring as a comprehensive health assessment tool. Sleep features could be used to identify at-risk individuals earlier, forecast clinical trial outcomes, and enable personalized interventions in chronic conditions like diabetes, cardiovascular disease, and sleep apnea.\nThis work paves the way for developing AI-based models using multi-night sleep data to improve health forecasting and preventative care across various medical domains. The HPP dataset provides unique value for commercial partners looking to integrate multi-modal health data and wearable devices into clinical research and digital health solutions.\n\n\n\nimage"
-  },
-  {
-    "objectID": "publications/1dd59130-bc80-43ba-b3ed-25559c242a38.html",
-    "href": "publications/1dd59130-bc80-43ba-b3ed-25559c242a38.html",
-    "title": "Environment dominates over host genetics in shaping human gut microbiota",
-    "section": "",
-    "text": "Rothschild D, Weissbrod O, Barkan E, Kurilshikov A, Korem T, Zeevi D, Costea P, Godneva A, Kalka I, Bar N, Shilo S, Lador D, Vila A, Zmora N, Pevsner-Fischer M, Israeli D, Kosower N, Malka G, Wolf B, Avnit-Sagi T, Lotan-Pompan M, Weinberger A, Halpern Z, Carmi S, Fu J, Wijmenga C, Zhernakova A, Elinav E, Segal E, Nature"
-  },
-  {
-    "objectID": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html",
-    "href": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html",
-    "title": "Deep phenotyping of health–disease continuum in the Human Phenotype Project",
-    "section": "",
-    "text": "Reicher L, Shilo S, Godneva A, Lutsker G, Zahavi L, Shoer S, Krongauz D, Rein M, Kohn S, Segev T, Schlesinger Y, Barak D, Levine Z, Keshet A, Shaulitch R, Lotan-Pompan M, Elkan M, Talmor-Barkan Y, Aviv Y, Dadiani M, Tsodyks Y, Gal-Yam E, Leibovitzh H, Werner L, Tzadok R, Maharshak N, Koga S, Glick-Gorman Y, Stossel C, Raitses-Gurevich M, Golan T, Dhir R, Reisner Y, Weinberger A, Rossman H, Song L, Xing E, Segal E, Nature Medicine"
-  },
-  {
-    "objectID": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html#paper-summary",
-    "href": "publications/231c42c7-a9e4-80b5-9191-db0508032baf.html#paper-summary",
-    "title": "Deep phenotyping of health–disease continuum in the Human Phenotype Project",
-    "section": "Paper summary",
-    "text": "Paper summary\nThe Human Phenotype Project (HPP) is a large-scale deep-phenotype prospective cohort. To date, approximately 28,000 participants have enrolled, with more than 13,000 completing their initial visit. The project is aimed at identifying novel molecular signatures with diagnostic, prognostic and therapeutic value, and at developing artificial intelligence (AI)-based predictive models for disease onset and progression. The HPP includes longitudinal profiling encompassing medical history, lifestyle and nutrition, anthropometrics, blood tests, continuous glucose and sleep monitoring, imaging and multi-omics data, including genetics, transcriptomics, microbiome (gut, vaginal and oral), metabolomics and immune profiling. Analysis of these data highlights the variation of phenotypes with age and ethnicity and unravels molecular signatures of disease by comparison with matched healthy controls. Leveraging extensive dietary and lifestyle data, we identify associations between lifestyle factors and health outcomes. Finally, we present a multi-modal foundation AI model, trained using self-supervised learning on diet and continuous-glucose-monitoring data, that outperforms existing methods in predicting disease onset. This framework can be extended to integrate other modalities and act as a personalized digital twin. In summary, we present a deeply phenotyped cohort that serves as a platform for advancing biomarker discovery, enabling the development of multi-modal AI models and personalized medicine approaches.\n\n\n\nimage"
-  },
-  {
-    "objectID": "publications/2a21980a-e72d-4533-9313-303678fd412e.html",
-    "href": "publications/2a21980a-e72d-4533-9313-303678fd412e.html",
-    "title": "Host genetics and microbiome associations through the lens of genome wide association studies",
-    "section": "",
-    "text": "Weissbrod O, Rothschild D, Barkan E, Segal E, Current Opinion in Microbiology"
-  },
-  {
     "objectID": "publications/2fec42c7-a9e4-80da-b105-ce6d2f14aecd.html",
     "href": "publications/2fec42c7-a9e4-80da-b105-ce6d2f14aecd.html",
     "title": "NutriMatch: harmonizing food composition databases with large language models for enhanced nutritional prediction",
@@ -1580,6 +1461,125 @@
     "title": "NutriMatch: harmonizing food composition databases with large language models for enhanced nutritional prediction",
     "section": "Paper summary",
     "text": "Paper summary\nAccurate analysis of dietary intake depends on linking food logs to food composition databases (FCDBs), yet these databases are often incomplete, inconsistent across regions, and difficult to harmonize at scale. In this study, the authors introduce NutriMatch, a scalable framework that leverages large language models (LLMs) and semantic embeddings to harmonize food composition databases across languages and regions and to impute missing nutrient values in a transparent and reproducible manner. NutriMatch aligns nutritionally equivalent food items across multiple FCDBs using embedding-based similarity, validates matches with an LLM acting as an automated judge, and enriches nutrient profiles by transferring missing values from matched reference foods s44482-025-00001-7.\nThe method was applied to the Israeli Human Phenotype Project (HPP), a deeply phenotyped cohort of over 10,000 adults who continuously log dietary intake via a mobile application linked to a local FCDB. Using NutriMatch, the authors expanded the HPP database from 21 recorded nutrients to 151 nutrients by harmonizing information from multiple international FCDBs, substantially increasing nutritional resolution while preserving cross-database consistency. Validation analyses demonstrated that two weeks of diet logging provide a stable and reproducible snapshot of long-term nutrient intake, supporting the use of short-term digital food logs for longitudinal phenotype prediction.\nTo assess the impact of nutrient enrichment, the authors evaluated predictive models linking dietary intake to a range of phenotypes, including body composition, blood biomarkers, continuous glucose monitoring metrics, and obesity status at two-year follow-up. Models incorporating the NutriMatch-expanded nutrient set consistently outperformed models based on age alone or basic macronutrients, with particularly strong gains for body fat measures, waist circumference, serum folate, and obesity prediction. Enriched nutrient profiles also revealed biologically coherent associations with metabolomic blood markers, highlighting the added explanatory value of micronutrients beyond standard dietary features.\nGeneralizability was demonstrated by applying the full NutriMatch pipeline to the Australian PREDICT cohort, a randomized clinical trial of individuals with prediabetes or early-stage type 2 diabetes. Nutrient imputations showed high concordance with the Australian reference database, and predictive models trained in HPP transferred to PREDICT without retraining, achieving improved performance compared with baseline nutrient models. Together, these results establish NutriMatch as a robust approach for harmonizing food composition databases, enriching dietary data at scale, and enabling cross-cohort nutritional analyses that improve diet–health modeling across populations and clinical contexts.\n\n\n\n\nimage"
+  },
+  {
+    "objectID": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html",
+    "href": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html",
+    "title": "Impact of dietary interventions on pre-diabetic oral and gut microbiome, metabolites and cytokines",
+    "section": "",
+    "text": "Shoer S, Shilo S, Godneva A, Ben-Yacov O, Rein M, Wolf B, Lotan-Pompan M, Bar N, Weiss E, Houri-Haddad Y, Pilpel Y, Weinberger A, Segal E, Nature Communications"
+  },
+  {
+    "objectID": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html#paper-summary",
+    "href": "publications/010dda05-6716-4d0a-a0a5-1f1a38ea05d7.html#paper-summary",
+    "title": "Impact of dietary interventions on pre-diabetic oral and gut microbiome, metabolites and cytokines",
+    "section": "Paper summary",
+    "text": "Paper summary\nDiabetes and associated comorbidities are a global health threat on the rise. We conducted a six-month dietary intervention in pre-diabetic individuals (NCT03222791), to mitigate the hyperglycemia and enhance metabolic health. The current work explores early diabetes markers in the 200 individuals who completed the trial. We find 166 of 2,803 measured features, including oral and gut microbial species and pathways, serum metabolites and cytokines, show significant change in response to a personalized postprandial glucose-targeting diet or the standard of care Mediterranean diet. These changes include established markers of hyperglycemia as well as novel features that can now be investigated as potential therapeutic targets. Our results indicate the microbiome mediates the effect of diet on glycemic, metabolic and immune measurements, with gut microbiome compositional change explaining 12.25% of serum metabolites variance. Although the gut microbiome displays greater compositional changes compared to the oral microbiome, the oral microbiome demonstrates more changes at the genetic level, with trends dependent on environmental richness and species prevalence in the population. In conclusion, our study shows dietary interventions can affect the microbiome, cardiometabolic profile and immune response of the host, and that these factors are well associated with each other, and can be harnessed for new therapeutic modalities.\n\n\n\nimage"
+  },
+  {
+    "objectID": "publications/1215a04e-d02c-4fab-8ce7-6a4ec35781f2.html",
+    "href": "publications/1215a04e-d02c-4fab-8ce7-6a4ec35781f2.html",
+    "title": "Population-wide diversity and stability of serum antibody epitope repertoires against human microbiota",
+    "section": "",
+    "text": "Vogl T, Klompus S, Leviatan S, Kalka I, Weinberger A, Wijmenga C, Fu J, Zhernakova A, Weersma R, Segal E, Nature Medicine"
+  },
+  {
+    "objectID": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html",
+    "href": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html",
+    "title": "Identification of gut microbiome features associated with host metabolic health in a large population-based cohort",
+    "section": "",
+    "text": "Keshet A, Segal E, Nature Communications"
+  },
+  {
+    "objectID": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html#paper-summary",
+    "href": "publications/12fc42c7-a9e4-807c-8cd4-ffe82a9c6d5d.html#paper-summary",
+    "title": "Identification of gut microbiome features associated with host metabolic health in a large population-based cohort",
+    "section": "Paper summary",
+    "text": "Paper summary\n\nThis paper examines the relationship between gut microbiome and Host metabolic health.\nMicrobiome data was analyzed on a functional level - examining microbial gene families and metabolic pathways that are contributed by the entire gut microbiome community.\nFor host metabolic health 38 measures were examined - from CGM, DXA and liver US.\nSignificant associations were uncovered between microbial gene families and pathways and host metabolic health. Many significant associations were observed specifically for body composition measures.\nVariability was found in the number of species and genera contributing to the abundance of the associated gene families and pathways - suggesting that the discovered associations do not represent a unique species or genera but an association with a community level functionality.\nMost of the associations remained unchanged when adjusting for nutritional information for diet logging, with CGM within-day variability measures most affected with a reduction in the amount of significant associations.\nAssociations with BMI were replicated in an external cohort of Dutch microbiome.\nThis results could pave the way for future research on the relation between microbiome and host metabolic health, and perhaps to the development of microbiome based therapeutics."
+  },
+  {
+    "objectID": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html",
+    "href": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html",
+    "title": "Sex-specific dietary habits and their association with weight change in healthy adults",
+    "section": "",
+    "text": "Rein M, Elkan M, Godneva A, Dolev N, Segal E, BMC Medicine"
+  },
+  {
+    "objectID": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html#paper-summary",
+    "href": "publications/144c42c7-a9e4-80a8-8425-ffc0f9cdb76d.html#paper-summary",
+    "title": "Sex-specific dietary habits and their association with weight change in healthy adults",
+    "section": "Paper summary",
+    "text": "Paper summary\nThe study leverages a unique dataset to explore the relationship between diet and obesity management, focusing on gender-specific dietary impacts.\nThe study analyzed how different food categories influence body mass index (BMI) at baseline and weight change over time.\nThe authors discovered that dietary habits and their effects on weight management vary significantly by sex. In men, weight loss was associated with increased intake of animal-based proteins, whereas in women, it correlated with a higher consumption of plant-based fats. These findings suggest that personalized dietary interventions considering gender-specific needs could enhance obesity management effectiveness. This research underscores the value of our detailed diet logging data in developing targeted nutritional strategies.\n\n\n\nimage"
+  },
+  {
+    "objectID": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html",
+    "href": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html",
+    "title": "COMPRER: A Multimodal Multi-Objective Pretraining Framework for Enhanced Medical Image Representation",
+    "section": "",
+    "text": "Lutsker G, Rossman H, Godneva N, Segal E, medRxiv"
+  },
+  {
+    "objectID": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html#paper-summary",
+    "href": "publications/15fc42c7-a9e4-8088-aacd-c9a455a5e0b4.html#paper-summary",
+    "title": "COMPRER: A Multimodal Multi-Objective Pretraining Framework for Enhanced Medical Image Representation",
+    "section": "Paper summary",
+    "text": "Paper summary\nABSTRACT Substantial advances in multi-modal Artificial Intelligence (AI) facilitate the combination of diverse medical modalities to achieve holistic health assessments. We present COMPRER, a novel multi-modal, multi-objective pretraining framework which enhances medical-image representation, diagnostic inferences, and prognosis of diseases. COMPRER employs a multi-objective training framework, where each objective introduces distinct knowledge to the model. This includes a multi-modal loss that consolidates information across different imaging modalities; A temporal loss that imparts the ability to discern patterns over time; Medical-measure prediction adds appropriate medical insights; Lastly, reconstruction loss ensures the integrity of image structure within the latent space. Despite the concern that multiple objectives could weaken task performance, our findings show that this combination actually boosts outcomes on certain tasks. Here, we apply this framework to both fundus images and carotid ultrasound, and validate our downstream tasks capabilities by predicting both current and future cardiovascular conditions. COMPRER achieved higher Area Under the Curve (AUC) scores in evaluating medical conditions compared to existing models on held-out data. On the Out-of-distribution (OOD) UK-Biobank dataset COMPRER maintains favorable performance over well-established models with more parameters, even though these models were trained on 75× more data than COMPRER. In addition, to better assess our model’s performance in contrastive learning, we introduce a novel evaluation metric, providing deeper understanding of the effectiveness of the latent space pairing."
+  },
+  {
+    "objectID": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html",
+    "href": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html",
+    "title": "Unveiling Associations Between Retinal Microvascular Architecture and Phenotypes Across Thousands of Healthy Subjects",
+    "section": "",
+    "text": "Shapira M, Shilo S, Talmor-Barkan Y, Aviv Y, Reisner Y, Godneva A, Weinberger A, Skaat A, Loewenstein A, Segal E, Rossman H, arXiv"
+  },
+  {
+    "objectID": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html#paper-summary",
+    "href": "publications/18ec42c7-a9e4-8027-b67f-fe09357340e1.html#paper-summary",
+    "title": "Unveiling Associations Between Retinal Microvascular Architecture and Phenotypes Across Thousands of Healthy Subjects",
+    "section": "Paper summary",
+    "text": "Paper summary\nAbstract Fundus imaging has emerged as a powerful tool, allowing high-resolution and non-invasive visualization of the fundus microvasculature. Recent advancements in artificial intelligence (AI) have enabled the quantification of fundus microvascular characteristics, paving the way for the development of predictive markers for systemic conditions. In this study, we characterize the fundus microvasculature among 8467 healthy individuals, aged 40-70 years. We employ a fully automated segmentation tool to calculate 12 distinct vessel measures, including tortuosity density, vessel density, average width, fractal dimension, distance tortuosity, and curvature tortuosity for both arteries and veins. We provide reference values for these measures by age and sex, and explore the associations between these fundus vessel measures and various clinical features. Our analysis reveals numerous significant correlations, including connections between fundus arterial measures and cardiovascular measurements, lipid profile, sleep apnea indices, glycemic profile, body composition, and smoking status. This comprehensive analysis of fundus microvasculature anatomy in a large healthy population contributes to the growing field of oculomics and highlights the potential of fundus imaging for earlier detection and monitoring of systemic diseases such as metabolic syndrome, cardiovascular diseases and sleep disorders.\nAbstract Fundus imaging has emerged as a powerful tool, allowing high-resolution and non-invasive visualization of the fundus microvasculature. Recent advancements in artificial intelligence (AI) have enabled the quantification of fundus microvascular characteristics, paving the way for the development of predictive markers for systemic conditions. In this study, we characterize the fundus microvasculature among 8467 healthy individuals, aged 40-70 years. We employ a fully automated segmentation tool to calculate 12 distinct vessel measures, including tortuosity density, vessel density, average width, fractal dimension, distance tortuosity, and curvature tortuosity for both arteries and veins. We provide reference values for these measures by age and sex, and explore the associations between these fundus vessel measures and various clinical features. Our analysis reveals numerous significant correlations, including connections between fundus arterial measures and cardiovascular measurements, lipid profile, sleep apnea indices, glycemic profile, body composition, and smoking status. This comprehensive analysis of fundus microvasculature anatomy in a large healthy population contributes to the growing field of oculomics and highlights the potential of fundus imaging for earlier detection and monitoring of systemic diseases such as metabolic syndrome, cardiovascular diseases and sleep disorders."
+  },
+  {
+    "objectID": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html",
+    "href": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html",
+    "title": "Prediction of Personal Glycemic Responses to Food for Individuals With Type 1 Diabetes Through Integration of Clinical and Microbial Data",
+    "section": "",
+    "text": "Shilo S, Godneva A, Rachmiel M, Korem T, Kolobkov D, Karady T, Bar N, Wolf B, Glantz-Gashai Y, Cohen M, Zuckerman Levin N, Shehadeh N, Gruber N, Levran N, Koren S, Weinberger A, Pinhas-Hamiel O, Segal E, Diabetes Care"
+  },
+  {
+    "objectID": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html#paper-summary",
+    "href": "publications/20076cab-601f-41a8-882d-fe1cc674d6a5.html#paper-summary",
+    "title": "Prediction of Personal Glycemic Responses to Food for Individuals With Type 1 Diabetes Through Integration of Clinical and Microbial Data",
+    "section": "Paper summary",
+    "text": "Paper summary\n OBJECTIVE Despite technological advances, results from various clinical trials have repeatedly shown that many individuals with type 1 diabetes (T1D) do not achieve their glycemic goals. One of the major challenges in disease management is the administration of an accurate amount of insulin for each meal that will match the expected postprandial glycemic response (PPGR). The objective of this study was to develop a prediction model for PPGR in individuals with T1D.   RESEARCH DESIGN AND METHODS We recruited individuals with T1D who were using continuous glucose monitoring and continuous subcutaneous insulin infusion devices simultaneously to a prospective cohort and profiled them for 2 weeks. Participants were asked to report real-time dietary intake using a designated mobile app. We measured their PPGRs and devised machine learning algorithms for PPGR prediction, which integrate glucose measurements, insulin dosages, dietary habits, blood parameters, anthropometrics, exercise, and gut microbiota. Data of the PPGR of 900 healthy individuals to 41,371 meals were also integrated into the model. The performance of the models was evaluated with 10-fold cross validation.   RESULTS A total of 121 individuals with T1D, 75 adults and 46 children, were included in the study. PPGR to 6,377 meals was measured. Our PPGR prediction model substantially outperforms a baseline model with emulation of standard of care (correlation of R = 0.59 compared with R = 0.40 for predicted and observed PPGR respectively; P &lt; 10−10). The model was robust across different subpopulations. Feature attribution analysis revealed that glucose levels at meal initiation, glucose trend 30 min prior to meal, meal carbohydrate content, and meal’s carbohydrate-to-fat ratio were the most influential features for the model.   CONCLUSIONS Our model enables a more accurate prediction of PPGR and therefore may allow a better adjustment of the required insulin dosage for meals. It can be further implemented in closed loop systems and may lead to rationally designed nutritional interventions personally tailored for individuals with T1D on the basis of meals with expected low glycemic response."
+  },
+  {
+    "objectID": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html",
+    "href": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html",
+    "title": "Comprehensive Survey of Gut Microbiome Associations with Health Conditions in the Human Phenotype Project",
+    "section": "",
+    "text": "Weissglas-Volkov D, Reisner Y, Shor T, Diament A, Jankelow A, Godneva A, Napier B, Dhir R, Segal E, BioRxiv"
+  },
+  {
+    "objectID": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html#paper-summary",
+    "href": "publications/236c42c7-a9e4-802e-8a0a-d0dbceda900a.html#paper-summary",
+    "title": "Comprehensive Survey of Gut Microbiome Associations with Health Conditions in the Human Phenotype Project",
+    "section": "Paper summary",
+    "text": "Paper summary\nThe human gut microbiome is increasingly implicated with diverse health conditions, highlighting the importance of developing comprehensive resources to systematically map these associations. In this study, we leveraged the Human Phenotype Project (HPP) 10K cohort, a large, deeply phenotyped population study cohort with extensive metagenomic profiling, to explore associations between the gut microbiome and 37 health indications. These include conditions with established or emerging links to the microbiome, such as obesity, diabetes, hyperlipidemia, metabolic syndrome, inflammation, liver disease, cardiovascular and kidney conditions, immune and allergic diseases, gastrointestinal symptoms, mental health, and sleep-related traits. Using a curated set of approximately 200 refined phenotypic features and analyzing 1,184 microbial species, we performed robust statistical association analyses. We observed significant enrichment of associations in 14 health indications, with most associations reflecting increased microbial abundance in favorable health states, thereby suggesting potential microbial targets for intervention. This work introduces a publicly available, high-resolution resource to facilitate future research and support the development of microbiome-informed health strategies.\nThe inverted Manhattan plot below displays the log-transformed p-values for associations between microbiome features and multiple health indications. Each point represents a microbial species, with colors indicating different health indication categories.\n\n\n\nimage"
+  },
+  {
+    "objectID": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html",
+    "href": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html",
+    "title": "A foundation model for continuous glucose monitoring data",
+    "section": "",
+    "text": "Lutsker G, Sapir G, Shilo S, Merino J, Godneva A, Greenfield J, Samocha-Bonet D, Dhir R, Gude F, Mannor S, Meirom E, Xing E, Chechik G, Rossman H, Segal E, Nature"
+  },
+  {
+    "objectID": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html#paper-summary",
+    "href": "publications/2ebc42c7-a9e4-8071-8d75-f3687a43d839.html#paper-summary",
+    "title": "A foundation model for continuous glucose monitoring data",
+    "section": "Paper summary",
+    "text": "Paper summary\nContinuous glucose monitoring (CGM) provides high-resolution measurements of glucose dynamics, yet clinical assessment of glycaemic status still relies heavily on laboratory biomarkers such as HbA1c and on a limited set of handcrafted CGM-derived summary metrics. In this study, we introduce GluFormer, a transformer-based foundation model trained using self-supervised learning on more than 10 million CGM measurements from 10,812 adults in the Human Phenotype Project (HPP), the majority of whom did not have diabetes. By learning to autoregressively predict future glucose values from discretized CGM time series, the model captures latent representations of glycaemic physiology directly from raw CGM data.\nWe evaluated GluFormer across 19 external cohorts spanning five countries, eight CGM devices, and a wide range of metabolic and clinical contexts, including prediabetes, type 1 and type 2 diabetes, gestational diabetes, obesity, and multiple clinical trial populations. Across these settings, GluFormer-derived representations consistently improved prediction of contemporaneous and future glycaemic measures compared with standard CGM-derived metrics such as GMI, time-in-range, and glycaemic variability. In individuals with prediabetes, the model stratified two-year HbA1c trajectories more effectively than baseline HbA1c, identifying individuals at risk of glycaemic deterioration despite similar initial laboratory measurements.\nIn an independent population-based cohort with a median follow-up of 11 years, GluFormer embeddings were strongly associated with long-term clinical outcomes. The majority of incident diabetes cases and cardiovascular deaths occurred among individuals in the highest risk quartile defined by the model, whereas baseline HbA1c did not meaningfully stratify risk. These findings indicate that dynamic CGM patterns encode prognostic information that is not captured by static glycaemic biomarkers.\nBeyond outcome prediction, GluFormer accurately generated physiologically realistic CGM trajectories, reproducing key clinical glucose metrics across diverse populations, disease states, and devices. A multimodal extension of the model that integrates dietary information further improved prediction of postprandial glucose responses, demonstrating the potential of combining behavioral and physiological data within a unified foundation modeling framework. Together, this work establishes CGM-based foundation models as a scalable approach for extracting clinically relevant representations of metabolic health, with potential applications in early risk stratification, long-term outcome prediction, and precision medicine.\n\n\n\nimage\n\n\n\n\n\nimage"
   },
   {
     "objectID": "publications/384ddec8-c5c0-43da-9600-1ab53c7f93e0.html",
